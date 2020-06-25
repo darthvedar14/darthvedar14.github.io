@@ -492,11 +492,23 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0;
+  padding: 40px 0;
 }
 
 .section-bg {
-  background-color: #f5f9fc;
+  /* background-color: #f5f9fc; */
+ 
+}
+.section-bg1{
+width: 100%;
+padding: 0 7%;
+display: table;
+margin: 0;
+max-width: 100%;
+
+background-image: url('assets\img\bg1.jpg');
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 .section-title {
@@ -788,7 +800,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
-  padding-bottom: 30px;
+  padding-bottom: 10px;
 }
 
 .counts .count-box {
