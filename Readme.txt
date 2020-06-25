@@ -1,6 +1,2 @@
-Thanks for downloading this template!
-
-Template Name: Mamba
-Template URL: https://bootstrapmade.com/mamba-one-page-bootstrap-template-free/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+This is Kribcho's demo website.
+Content mentioned can not be used without consent of company
