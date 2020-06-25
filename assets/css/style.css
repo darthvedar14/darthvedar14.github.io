@@ -492,28 +492,21 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 40px 0;
+  padding: 0px 0;
 }
 
 .section-bg {
-  /* background-color: #f5f9fc; */
- 
+  background-color: #f5f9fc;
 }
-.section-bg1{
-width: 100%;
-padding: 0 7%;
-display: table;
-margin: 0;
-max-width: 100%;
 
-background-image: url('assets\img\bg1.jpg');
-background-repeat: no-repeat;
-background-size: cover;
+.section-bg1 {
+  background-color: #b9f7a6;
 }
 
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  padding-top: 40px;
 }
 
 .section-title h2 {
@@ -522,6 +515,7 @@ background-size: cover;
   margin-bottom: 20px;
   padding-bottom: 0;
   color: #5c768d;
+  /* font-family: Helvetica, Arial, sans-serif;  */
 }
 
 .section-title p {
@@ -597,7 +591,7 @@ background-size: cover;
 
 .about .about-content {
   padding: 40px;
-  background-image: url("assets\img\abtimag.jpg");
+  background-image: url("assets\img\bg1.jpg");
 }
 
 .about .icon-box + .icon-box {
@@ -807,7 +801,9 @@ background-size: cover;
   box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
   padding: 30px;
   background: #fff;
-  margin-bottom: 30px;
+  /* background-image: url('assets\img\bg\boxbg.jpg'); */
+  margin-bottom: 50px;
+  opacity: 1;
 }
 
 .counts .count-box i {
@@ -828,6 +824,31 @@ background-size: cover;
   margin: 0;
   font-family: "Raleway", sans-serif;
   font-size: 14px;
+}
+
+.counts row {
+  padding-bottom: 10px;
+  
+}
+
+.counts .section-title h2 {
+  font-size: 32px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  padding-bottom: 0;
+  /* color: #5c768d; */
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+.counts .section-title h4 {
+  font-size: 24px;
+  font-weight: 600;
+ /*  margin-bottom: 20px; */
+  padding-bottom: 0;
+  /* color: #5c768d; */
+  color: #fff;
+  font-family: Helvetica, Arial, sans-serif; 
 }
 
 /*--------------------------------------------------------------
@@ -1139,18 +1160,18 @@ background-size: cover;
   font-size: 16px;
   color: #fff;
   position: relative;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
 }
 
 .team .member h4::after {
-  content: '';
+  /* content: '';
   position: absolute;
   display: block;
   width: 50px;
-  height: 1px;
+  height: 0px;
   background: #fff;
   bottom: 0;
-  left: calc(50% - 25px);
+  left: calc(50% - 25px); */
 }
 
 .team .member span {
