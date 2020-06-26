@@ -3,7 +3,8 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444;
+  /* color: #444; */
+  color: #000;
 }
 
 a {
@@ -124,9 +125,9 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 #header .logo img {
-  padding: 0;
-  margin: 0;
-  max-height: 60px;
+  padding-left: 20px;
+  width: 100%;
+   max-height: 60px;
 }
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -155,7 +156,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: green; /* #428bca; */
+  color: #fff; /* #428bca; */
+  background: green;
   text-decoration: none;
 }
 
@@ -167,7 +169,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  padding: 10px 0;
+  padding: 10px 0px;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
@@ -193,7 +195,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-  color: green; /* #428bca; */
+  color: #fff; /* #428bca; */
+  background: green;
 }
 
 .nav-menu .drop-down > a:after {
@@ -203,17 +206,16 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 
 .nav-menu .drop-down .drop-down ul {
-  top: 0;
-  left: 100%;
+   top: 0;
+   right: 100%; 
 }
 
 .nav-menu .drop-down .drop-down:hover > ul {
   opacity: 1;
-  top: 0;
 }
 
 .nav-menu .drop-down .drop-down > a {
-  padding-right: 35px;
+  padding-right: 30px;
 }
 
 .nav-menu .drop-down .drop-down > a:after {
@@ -406,7 +408,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   animation-delay: 0.4s;
   color: #fff;
   font-size: 24px;
-  background-color: rgba(13, 30, 45, 0.6);
+  background-color: rgba(35, 80, 175, 0.8);
 }
 
 #hero .carousel-inner .carousel-item {
@@ -512,9 +514,10 @@ section {
 .section-title h2 {
   font-size: 32px;
   font-weight: 600;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-bottom: 0;
-  color: #5c768d;
+  /* color: #5c768d; */
+  color: #000;
   /* font-family: Helvetica, Arial, sans-serif;  */
 }
 
@@ -579,6 +582,14 @@ section {
   box-shadow: 0 5px 25px 0 rgba(214, 215, 216, 0.6);
 }
 
+.about .about-content .section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  padding-top: 0px;}
+  
+  .about .about-content .section-title h2{
+  color: black;}
+
 .about .video-box img {
   padding: 15px 0;
 }
@@ -586,12 +597,11 @@ section {
 .about .section-title p {
   text-align: left;
   font-style: italic;
-  color: #666;
+  color: black;
 }
 
 .about .about-content {
   padding: 40px;
-  background-image: url("assets\img\bg1.jpg");
 }
 
 .about .icon-box + .icon-box {
@@ -831,31 +841,19 @@ section {
   
 }
 
-.counts .section-title h2 {
-  font-size: 32px;
-  font-weight: 600;
-  margin-bottom: 0px;
-  padding-bottom: 0;
-  /* color: #5c768d; */
-  color: #fff;
-  font-family: Helvetica, Arial, sans-serif; 
-}
-
 .counts .section-title h4 {
-  font-size: 24px;
-  font-weight: 600;
+  font-weight: 700;
  /*  margin-bottom: 20px; */
-  padding-bottom: 0;
-  /* color: #5c768d; */
-  color: #fff;
-  font-family: Helvetica, Arial, sans-serif; 
+ /* /*  padding-bottom: 0; */ */
+/*   color: #000;
+  font-family: Helvetica, Arial, sans-serif;  */
 }
 
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
 .services {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .services .icon-box {
@@ -887,7 +885,7 @@ section {
 }
 
 .services .title {
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
   position: relative;
@@ -895,12 +893,13 @@ section {
 }
 
 .services .title a {
-  color: #444;
+  /* color: #444; */
+  color: green;
   transition: 0.3s;
 }
 
 .services .title a:hover {
-  color: green; /* #428bca; */
+  color: #428bca;
 }
 
 .services .title::after {
@@ -916,7 +915,9 @@ section {
 
 .services .description {
   line-height: 24px;
-  font-size: 14px;
+  font-size: 16px;
+  color: white;
+  background-color: rgba(13,30,45,0.4);
 }
 
 /*--------------------------------------------------------------
@@ -989,6 +990,16 @@ section {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
+}
+
+.portfolio .title h4 {
+  font-size: 26px;
+  color: #fff;
+  font-weight: 200;
+  text-align: center;
+  /* background-color: #3297FD; */
+  background: radial-gradient(circle, rgba(0,128,0,1) 0%, rgba(47,121,47,1) 72%, rgba(118,177,113,1) 100%);
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .portfolio .portfolio-wrap .portfolio-info p {
@@ -1122,7 +1133,7 @@ section {
 --------------------------------------------------------------*/
 .team {
   background: #fff;
-  padding: 60px 0 30px 0;
+  padding: 0px 0 0px 0;
 }
 
 .team .member {
@@ -1149,7 +1160,8 @@ section {
   bottom: -48px;
   left: 20px;
   right: 20px;
-  background: linear-gradient(360deg, #5c768d 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%);
+  /* background: linear-gradient(360deg, #5c768d 0%, rgba(92, 118, 141, 0.9) 35%, rgba(140, 167, 191, 0.8) 100%); */
+  background: linear-gradient(360deg, rgba(0,128,0,1) 0%, rgba(47,121,47,1) 72%, rgba(118,177,113,1) 100%);
   padding: 15px 0;
   border-radius: 4px;
 }
