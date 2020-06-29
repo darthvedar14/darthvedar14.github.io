@@ -579,7 +579,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about {
-  padding-bottom: 30px;
+  padding-bottom: 0px;
 }
 
 .about .container {

@@ -28,6 +28,13 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+  #videoBG {
+	 width:100%;
+	 position: relative;
+	 height: auto;
+	}
+</style>
 
 </head>
 
@@ -173,7 +180,7 @@
 
           <!-- Slide 1 -->
           <div class="carousel-item active" style="background-image: url('assets/img/slide/slide-2.png');background-repeat:no-repeat;
-background-attachment: fixed; background-size: cover;">
+			background-attachment: fixed; background-size: cover;">
              <div class="carousel-container">
               <div class="carousel-content container">
                 <h2 class="animate__animated animate__fadeInDown">Welcome to <span>KRIBHCO</span></h2>
@@ -182,10 +189,22 @@ background-attachment: fixed; background-size: cover;">
               </div>
             </div>
           </div>
+		   <!-- Slide 2.0 -->
+		  <div class="carousel-item" >
+		  <video id="videoBG" poster="assets/img/slide/slide-2.png" autoplay muted loop>
+		   <source src="assets/img/slide/org_vd.mp4" type="video/mp4">
+		   </video>
+            <div class="carousel-container">
+              <div class="carousel-content container">
+                <!-- <h2 class="animate__animated animate__fadeInDown">Test 2</h2> -->
+                <p class="animate__animated animate__fadeInUp">Kribhco is India's first fertilizer complex to implement gas based “state-of-the-art” high capacity Unit.</p>
+                <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+              </div>
+            </div>
+          </div>
 
           <!-- Slide 2 -->
-          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-1.jpg');background-repeat:no-repeat;
-background-attachment: fixed; background-size: cover;">
+          <div class="carousel-item" style="background-image: url('assets/img/slide/slide-1.jpg');background-repeat:no-repeat;background-attachment: fixed; background-size: cover;">
             <div class="carousel-container">
               <div class="carousel-content container">
                 <!-- <h2 class="animate__animated animate__fadeInDown">Test 2</h2> -->
