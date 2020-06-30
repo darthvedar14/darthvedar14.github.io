@@ -8,7 +8,8 @@ body {
 }
 
 a {
-  color: #428bca;
+  /* color: #428bca; */
+  color: #fff;
 }
 
 a:hover {
@@ -511,7 +512,7 @@ section {
 
 .section-title {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   padding-top: 40px;
 }
 
@@ -579,7 +580,7 @@ section {
 # About Us
 --------------------------------------------------------------*/
 .about {
-  padding-bottom: 0px;
+  padding-bottom: 30px;
 }
 
 .about .container {
@@ -849,7 +850,7 @@ section {
 .counts .count-box i {
   display: block;
   font-size: 64px;
-  margin-bottom: 15px;
+  margin-bottom: 0px;
 }
 
 .counts .count-box span {
@@ -867,16 +868,12 @@ section {
 }
 
 .counts row {
-  padding-bottom: 10px;
-  
+  padding-bottom: 0px; 
 }
 
 .counts .section-title h4 {
   font-weight: 700;
- /*  margin-bottom: 20px; */
- /* /*  padding-bottom: 0; */ */
-/*   color: #000;
-  font-family: Helvetica, Arial, sans-serif;  */
+
 }
 
 /*--------------------------------------------------------------
