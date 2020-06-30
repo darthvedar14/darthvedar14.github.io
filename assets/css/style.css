@@ -806,30 +806,6 @@ section {
   }
 }
 
-.button .btn-get-started {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 20px;
-  border-radius: 10px;
-  transition: 0.5s;
-  line-height: 1;
-  margin: 0px;
-  color: #fff;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  border: 0;
-  background: green; /* #428bca; */
-  margin-right: 20px;
-}
-
-.button span {
-  font-size: 20px;
-  font-weight: 1000;
-}
-
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
@@ -839,10 +815,10 @@ section {
 
 .counts .count-box {
   box-shadow: 0px 0 16px rgba(0, 0, 0, 0.1);
-  padding: 10px;
+  padding: 30px;
   background: #fff;
   /* background-image: url('assets\img\bg\boxbg.jpg'); */
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   opacity: 1;
 }
 
