@@ -55,7 +55,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 --------------------------------------------------------------*/
 #topbar {
   background: #fff;
-  padding: 5px 0;
+  padding: 5px 15px;
   border-bottom: 1px solid #eee;
   font-size: 14px;
 }
@@ -412,7 +412,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   animation-delay: 0.4s;
   color: #fff;
   font-size: 24px;
-  background-color: rgba(35, 80, 175, 0.8);
+  /* background-color: rgba(35, 80, 175, 0.2); */
+  background-color: rgba(13, 30, 45, 0.3);
 }
 
 #hero .carousel-inner .carousel-item {
