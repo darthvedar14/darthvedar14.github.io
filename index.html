@@ -29,6 +29,10 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/style1.css" rel="stylesheet">
+	
+   <!-- Template Popup box -->
+  <link rel="stylesheet" href="swc.css">
+  	
   <style>
   #videoBG {
 	 max-width: 100%;
@@ -40,6 +44,18 @@
 
 <body>
 
+  <!-- Added by Shivendra pop up box --> 
+  <div id="boxes">
+<div style="top: 50%; left: 50%; display: none;" id="dialog" class="window"> 
+<div id="san">
+<a href="SOP.pdf"  target="_blank"><img src="covid19.png" width="400"></a>
+
+</div>
+</div>
+<div style="width: 2478px; font-size: 32pt; color:white; height: 1202px; display: none; opacity: 0.4;" id="mask"></div>
+</div>
+ 
+	
   <!-- ======= Top Bar ======= -->
   <section id="topbar" class="d-none d-lg-block">
   
@@ -736,6 +752,9 @@ background-attachment: fixed; background-size: cover;"">
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+				 
+ <!-- Template Popup box js file -->
+  <script src="swc.js"></script>
 
 </body>
 
