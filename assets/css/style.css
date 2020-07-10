@@ -20,6 +20,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   font-family: "Raleway", sans-serif;
 }
 
+
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -31,7 +33,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   border-radius: 3px;
   right: 15px;
   bottom: 15px;
-  background: #428bca;
+ /*  background: #428bca; */
+   background: green;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -547,10 +550,19 @@ section {
   background-color: #f5f9fc;
   min-height: 40px;
 }
+.breadcrumbs h1 {
+  /* font-size: 24px; */
+  font-weight: 500;
+  color: green;
+}
 
 .breadcrumbs h2 {
   font-size: 24px;
   font-weight: 300;
+}
+
+.breadcrumbs a {
+  color: green;
 }
 
 .breadcrumbs ol {
@@ -1557,6 +1569,20 @@ section {
 
 #footer .credits a {
   color: #9eccf4;
+}
+/*--------------------------------------------------------------
+# Inner Page content
+--------------------------------------------------------------*/
+.inner-page p{
+	text-align: justify;
+}
+.inner-page h3,h5{
+	font-weight: 600;
+	color: green;
+}
+.inner-page p i{
+	
+	color: green;
 }
 
 /* added by Shivendra for Headline ticker */
