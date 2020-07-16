@@ -37,6 +37,8 @@ if(!sessionStorage.getItem("firstTime")){
 	$('#mask').click(function () {
 		$(this).hide();
 		$('.window').hide();
-	});		
-}	
+	});	
+	sessionStorage.setItem("firstTime","true");
+}
+	else{}
 });
