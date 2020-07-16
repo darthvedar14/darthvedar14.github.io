@@ -556,6 +556,11 @@ section {
   color: green;
 }
 
+.breadcrumbs h3 {
+  /* font-size: 24px; */
+  color: green;
+}
+
 .breadcrumbs h2 {
   font-size: 24px;
   font-weight: 300;
@@ -794,7 +799,7 @@ section {
 
 .about-lists .content-item {
   padding: 10px;
-  border-left: 1px solid #d9e8f4;
+  border-left: 2px solid #d9e8f4;
   border-bottom: 1px solid #d9e8f4;
   margin: -1px;
 }
@@ -856,6 +861,7 @@ section {
 # Counts
 --------------------------------------------------------------*/
 .counts {
+  padding-top: 20px;
   padding-bottom: 10px;
 }
 
@@ -964,8 +970,8 @@ section {
 .services .description {
   line-height: 24px;
   font-size: 16px;
-  color: white;
-  background-color: rgba(13,30,45,0.4);
+  /* color: white;
+  background-color: rgba(13,30,45,0.4); */
 }
 
 /*--------------------------------------------------------------
