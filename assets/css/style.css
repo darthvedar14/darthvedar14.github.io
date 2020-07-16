@@ -525,7 +525,7 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 10px;
-  padding-top: 40px;
+  padding-top: 10px;
 }
 
 .section-title h2 {
@@ -791,6 +791,15 @@ section {
 --------------------------------------------------------------*/
 .about-lists {
   padding: 10px;
+}
+
+.about-lists a{
+  color: green;
+}
+
+.about-lists a:hover{
+  background: green;
+  color:#fff;
 }
 
 .about-lists .row {
@@ -1428,14 +1437,16 @@ section {
 }
 
 #footer {
-  background: #587187;
-  padding: 10px 0 10px 0;
+  /* background: #587187; */
+  background: green;
+  padding: 2px 0 10px 0;
   color: #fff;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #5c768d;
+  /* background: #5c768d; */
+  background: #fff;
   border-top: 1px solid #768fa6;
   border-bottom: 1px solid #67839c;
   padding: 10px 0 0px 0;
@@ -1458,13 +1469,14 @@ section {
   line-height: 24px;
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
-  color: #fff;
+  color: green;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #768fa6;
+  /* background: #768fa6; */
+   background: green;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1477,15 +1489,16 @@ section {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: green; /* #428bca; */
-  color: #fff;
+  /* background: #428bca; */
+  background: #fff;
+  color: green;
   text-decoration: none;
 }
 
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: 600;
-  color: #fff;
+  color: green;
   position: relative;
   padding-bottom: 12px;
 }
@@ -1502,7 +1515,8 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #9eccf4;
+  /* color: #9eccf4; */
+  color: green;
   font-size: 18px;
   line-height: 1;
 }
@@ -1518,14 +1532,17 @@ section {
 }
 
 #footer .footer-top .footer-links ul a {
-  color: #fff;
+  /* color: #fff; */
+  color: green;
   transition: 0.3s;
   display: inline-block;
   line-height: 1;
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #9eccf4;
+  /* color: #9eccf4; */
+  color: #fff;
+  background: green;
 }
 
 #footer .footer-top .footer-newsletter form {
@@ -1564,6 +1581,14 @@ section {
 #footer .copyright {
   text-align: center;
   padding-top: 5px;
+}
+footer .copyright a{
+  color: #f1f1f1;
+}
+
+footer .copyright a:hover{
+  background: #fff;
+  color: green;
 }
 
 #footer .credits {
