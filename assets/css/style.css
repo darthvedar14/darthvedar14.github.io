@@ -314,7 +314,7 @@ list-style: none;
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 20px;
+  top: 50px;
   z-index: 9998;
   border: 0;
   background: none;
