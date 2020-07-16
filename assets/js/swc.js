@@ -1,5 +1,5 @@
 $(document).ready(function() {	
-
+if(!sessionStorage.getItem("firstTime")){
 		var id = '#dialog';
 	
 		//Get the screen height and width
@@ -38,5 +38,5 @@ $(document).ready(function() {
 		$(this).hide();
 		$('.window').hide();
 	});		
-	
+}	
 });
