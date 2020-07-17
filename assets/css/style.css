@@ -1634,9 +1634,10 @@ footer .copyright a:hover{
     color: white;
     text-align: center;
     padding-top: 2px;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 24px;
-    background-color: red;
+    font-family: 'Rowdies', cursive;
+    background-color: darkgoldenrod;
 }
 
 .headline a {
