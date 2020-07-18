@@ -34,8 +34,8 @@
 
 	<style>
 		#map {
-			width: 600px;
-			height: 570px;
+			width: 680px;
+			height: 700px;
 		}
 	</style>
 </head>
@@ -220,7 +220,7 @@
   <!-- Template Main JS File -->
   <script src="../assets/js/main.js"></script>
 <script>
-	var map = L.map('map').setView([23.238225,77.426741], 4.4);
+	var map = L.map('map').setView([23.238225,81.496741], 5);
 
 	L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">KRIBHCO</a>'
@@ -238,13 +238,24 @@
 	});
 
 	var greenIcon = new LeafIcon({iconUrl: 'factory.png'}),
-		redIcon = new LeafIcon({iconUrl: 'marker-icon.png'}),
+		redIcon = new LeafIcon({iconUrl: 'favicon.png'}),
 		orangeIcon = new LeafIcon({iconUrl: 'marker-icon.png'});
 
 	L.marker([21.71286, 72.705581], {icon: greenIcon}).bindPopup("Manufacturing Unit Surat. Contact:02612802468").addTo(map);
 	L.marker([28.590644,77.310489], {icon: redIcon}).bindPopup("I am a red leaf.").addTo(map);
-	L.marker([16.507362,80.648814], {icon: orangeIcon}).bindPopup("I am an orange leaf.").addTo(map);
-
+	L.marker([16.507362,80.648814], {icon: orangeIcon}).bindPopup("I am a red leaf.").addTo(map);
+	L.marker([25.609469,78.470466], {icon: orangeIcon}).bindPopup("I am a red leaf.").addTo(map);
+	L.marker([25.609469,85.135093], {icon: orangeIcon}).bindPopup("I am a red leaf.").addTo(map);
+	L.marker([21.234639,81.678414], {icon: orangeIcon}).bindPopup("I am a red leaf.").addTo(map);
+	L.marker([23.035154,72.570606], {icon: orangeIcon}).bindPopup("I am a red leaf.").addTo(map);
+	L.marker([30.722837,76.770303], {icon: orangeIcon}).bindPopup("I am a red leaf.").addTo(map);
+	L.marker([12.989383,77.593425], {icon: orangeIcon}).bindPopup("I am a red leaf.").addTo(map);
+	L.marker([18.925076,72.823021], {icon: orangeIcon}).bindPopup("I am a red leaf.").addTo(map);
+	L.marker([23.238225,77.426741], {icon: orangeIcon}).bindPopup("I am a red leaf.").addTo(map);
+	L.marker([20.2709,85.794178], {icon: orangeIcon}).bindPopup("I am a red leaf.").addTo(map);
+	L.marker([26.901694,75.793533], {icon: orangeIcon}).bindPopup("I am a red leaf.").addTo(map);
+	L.marker([30.332006,78.020948], {icon: orangeIcon}).bindPopup("I am a red leaf.").addTo(map);
+	L.marker([22.606172,88.403131], {icon: orangeIcon}).bindPopup("I am a red leaf.").addTo(map);
 </script>
 
 
