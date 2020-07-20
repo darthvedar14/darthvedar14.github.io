@@ -140,8 +140,8 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 #header .logo img {
   /* padding-left: 20px;
   width: 90%;  commented by Devisht on 18/07/2020 */ 
-   max-height: 55px;
-   margin-left: -20px;
+   max-height: 60px;
+   margin-left: -80px;
    
 }
 /*--------------------------------------------------------------
@@ -1726,6 +1726,7 @@ footer .copyright a:hover{
 		justify-content: center;
 		position: relative;
 	}
+	
 
 	.top-nav ul > li .sf-with-ul::after {
 		content: "\f054";
@@ -1769,11 +1770,12 @@ footer .copyright a:hover{
 	}
 
 	.sf-menu li > ul:not(.mega-menu-row) li {
-		border-top: 1px solid #252839;
+		/* border-top: 1px solid #252839; */
+		 border-bottom: 1px solid #1DA462;
 	}
 
 	.sf-menu li > ul:not(.mega-menu-row) li:last-child {
-		border-bottom: 1px solid #252839;
+		/* border-bottom: 1px solid #252839; */
 	}
 
 	.sf-menu li:hover > ul,
@@ -1815,16 +1817,16 @@ footer .copyright a:hover{
 	.sf-menu > li > a {
 		line-height: 14px;
 		margin: 0 15px;
-		padding-bottom: 32px;
+		padding-bottom: 15px;
 		padding-left: 0;
 		padding-right: 0;
-		padding-top: 32px;
+		padding-top: 15px;
 		transition-duration: 0.15s;
 	}
 
 	.affix .sf-menu > li > a {
-		padding-bottom: 33px;
-		padding-top: 33px;
+		padding-bottom: 15px;
+		padding-top: 15px;
 	}
 }
 
@@ -1882,12 +1884,16 @@ footer .copyright a:hover{
 	}
 
 	.ds .sf-menu > li > a {
-		color: #000;
+		/* color: #000; */
+		color: #5c768d;
+		font-weight: 600;
 	}
 
 	.ds .sf-menu > li > a:hover,
 	.ds .sf-menu > li.active > a {
-		color: #ca416e;
+		/* color: #ca416e; */
+		color: #fff;
+		background: green;
 	}
 
 	.ls .sf-menu > li > a {
@@ -1913,7 +1919,8 @@ footer .copyright a:hover{
 	.sf-menu li > ul {
 		/* allow long menu items to determine submenu width */
 		*width: 11em;
-		background-color: rgba(11, 14, 30, 0.9);
+		/* background-color: rgba(11, 14, 30, 0.9); */
+		background-color : #fff;
 		box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 		list-style: none;
 		margin-top: 0 !important;
@@ -1933,7 +1940,8 @@ footer .copyright a:hover{
 	}
 
 	.sf-menu.nav ul a {
-		color: #fff;
+		/* color: #fff; */
+		color: green;
 		padding-left: 0;
 		padding-right: 0;
 	}
@@ -1951,7 +1959,8 @@ footer .copyright a:hover{
 
 	.sf-menu ul a:hover,
 	.sf-menu ul li.active > a {
-		color: #219bf1;
+		/* color: #219bf1; */
+		color: #45966E;
 	}
 	/* third level */
 	.sf-menu ul ul {
@@ -2219,7 +2228,7 @@ footer .copyright a:hover{
 	}
 
 	.sf-arrows .sf-with-ul + .sf-menu-item-mobile-toggler:after {
-		color: #000;
+		color: #fff;
 		content: "\f105";
 		font-family: "FontAwesome";
 	}
@@ -2345,7 +2354,8 @@ footer .copyright a:hover{
 }
 
 .menu-click .toggle_submenu:before {
-	content: "\f078";
+	/* content: "\f078"; */
+	content: "\f054";
 	font-family: "FontAwesome";
 	height: 3em;
 	left: 0;

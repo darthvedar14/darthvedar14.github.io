@@ -24,6 +24,7 @@
     position: relative;
     z-index: 1;
     overflow: hidden;
+	background: #fff;
 }
 .services .service-box::after {
     content: '';
