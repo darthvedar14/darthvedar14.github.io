@@ -532,6 +532,13 @@ section {
   padding-top: 10px;
 }
 
+.section-title1 {
+  background-image: url('../../assets/img/csr_gal0.JPG');	
+  min-height: 500px;
+  background-size: cover;
+}
+.section-title1 h1{
+}
 .section-title h2 {
   font-size: 32px;
   font-weight: 600;
