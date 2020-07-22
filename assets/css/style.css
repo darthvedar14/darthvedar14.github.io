@@ -2100,7 +2100,7 @@ footer .copyright a:hover{
 }
 
 .toggle_menu.mobile-active {
-	background-color: #0b0e1e;
+	/* background-color: #0b0e1e; */
 	border: none;
 	left: auto;
 	margin: 0;
@@ -2160,7 +2160,7 @@ footer .copyright a:hover{
 
 	.mobile-active .top-nav {
 		background-color: #111;
-		background-color: rgba(0, 0, 0, 0.9);
+		background-color: rgba(0, 0, 0, 0.7);
 		opacity: 1;
 		visibility: visible;
 		z-index: 1002;
@@ -2171,8 +2171,11 @@ footer .copyright a:hover{
 	}
 
 	.sf-menu {
-		background-color: #12172d;
-		border-top: 61px solid #10183c;
+		width: 50%;
+		/* background-color: #12172d; */
+		background: #fff;
+		/* border-top: 61px solid #10183c; */
+		border-top: 10px solid transparent;
 		bottom: 0;
 		display: block;
 		font-size: 16px;
@@ -2197,14 +2200,17 @@ footer .copyright a:hover{
 	}
 
 	.top-nav .sf-menu a {
-		color: #fff;
+		/* color: #fff; */
+		color: green;
 		display: block;
 		padding: 10px 10px;
 		z-index: 2;
 	}
 
 	.top-nav .sf-menu a:hover {
-		color: #219bf1;
+		/* color: #219bf1; */
+		color: white;
+		background: green;
 	}
 
 	.sf-menu ul {
@@ -2217,7 +2223,7 @@ footer .copyright a:hover{
 		letter-spacing: 0.1em;
 	}
 
-	.sf-menu ul li a:before {
+	/* .sf-menu ul li a:before {
 		background-color: #219bf1;
 		border-radius: 50%;
 		bottom: 3px;
@@ -2227,6 +2233,12 @@ footer .copyright a:hover{
 		margin-right: 10px;
 		position: relative;
 		width: 3px;
+	} */
+	.sf-menu ul li a:before {
+		color: green;
+		content: "\f1db";
+		font-family: "FontAwesome";
+		margin-right: 5px;
 	}
 	/* arrows (for all except IE7) */
 	.sf-arrows .sf-with-ul {
@@ -2246,7 +2258,8 @@ footer .copyright a:hover{
 	}
 
 	.sf-arrows .sf-with-ul + .sf-menu-item-mobile-toggler:after {
-		color: #fff;
+		/* color: #fff; */
+		color: green;
 		content: "\f105";
 		font-family: "FontAwesome";
 	}
