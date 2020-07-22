@@ -1680,7 +1680,7 @@ footer .copyright a:hover{
 .col-md-2 {
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
-    max-width: 8%;
+    max-width: 8% !important;
 }
 
 /* Menu added by Devisht on 18/07/2020 */
