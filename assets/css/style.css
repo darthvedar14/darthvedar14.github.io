@@ -1656,7 +1656,7 @@ footer .copyright a:hover{
     text-align: center;
     padding-top: 2px;
     font-weight: 500;
-    font-size: 24px;
+    font-size: 16px;
  font-family: 'Lato', sans-serif;
     background-color: goldenrod;
 }
@@ -1674,6 +1674,13 @@ footer .copyright a:hover{
 .col-sm-11 {
     margin: 0;
     padding: 0;
+}
+
+@media (min-width: 768px)
+.col-md-2 {
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 8%;
 }
 
 /* Menu added by Devisht on 18/07/2020 */
