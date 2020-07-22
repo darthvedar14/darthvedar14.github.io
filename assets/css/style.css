@@ -1677,7 +1677,7 @@ footer .copyright a:hover{
 }
 
 @media (min-width: 768px)
-.col-md-2 {
+.headlinetitle {
     -ms-flex: 0 0 16.666667%;
     flex: 0 0 16.666667%;
     max-width: 8% !important;
