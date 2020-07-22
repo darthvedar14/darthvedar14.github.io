@@ -2171,7 +2171,7 @@ footer .copyright a:hover{
 	}
 
 	.sf-menu {
-		width: 50%;
+		width: 60%;
 		/* background-color: #12172d; */
 		background: #fff;
 		/* border-top: 61px solid #10183c; */
@@ -2223,8 +2223,8 @@ footer .copyright a:hover{
 		letter-spacing: 0.1em;
 	}
 
-	/* .sf-menu ul li a:before {
-		background-color: #219bf1;
+	/*.sf-menu ul li a:before {
+		background-color: green;
 		border-radius: 50%;
 		bottom: 3px;
 		content: "";
@@ -2232,14 +2232,8 @@ footer .copyright a:hover{
 		height: 3px;
 		margin-right: 10px;
 		position: relative;
-		width: 3px;
-	} */
-	.sf-menu ul li a:before {
-		color: green;
-		content: "\f1db";
-		font-family: "FontAwesome";
-		margin-right: 5px;
-	}
+		width: 3px; 
+	}*/
 	/* arrows (for all except IE7) */
 	.sf-arrows .sf-with-ul {
 		padding-right: 3.5em;
@@ -2262,6 +2256,7 @@ footer .copyright a:hover{
 		color: green;
 		content: "\f105";
 		font-family: "FontAwesome";
+		font-size: 125%;
 	}
 
 	.sfHover > .sf-with-ul + .sf-menu-item-mobile-toggler:after {
