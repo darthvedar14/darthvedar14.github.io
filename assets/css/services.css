@@ -12,7 +12,7 @@
 }
 .services .section-title p {
     text-align: center;
-    font-style: italic;
+   /* font-style: italic;*/
     margin-bottom: 40px;
     color: #fff;
 	background-color: rgba(0, 0, 0, 0.7);
