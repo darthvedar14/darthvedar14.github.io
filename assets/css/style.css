@@ -1951,7 +1951,7 @@ footer .copyright a:hover{
 		list-style: none;
 		margin-top: 0 !important;
 		min-width: 11em;
-		padding: 50px;
+		padding: 25px;
 		text-align: left;
 		/* no auto sub width for IE7, see white-space comment below */
 	}
