@@ -1,4 +1,5 @@
 @@ -1,1656 +0,0 @@
+@@ -1,1656 +0,0 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -1617,13 +1618,18 @@ footer .copyright a:hover{
 --------------------------------------------------------------*/
 .inner-page p{
 	text-align: justify;
+	 font-family: "Open Sans", sans-serif;
 }
 .inner-page h3,h5{
 	font-weight: 600;
 	color: green;
 }
+.inner-page h1{
+	padding: 2%;
+	 color: #265d1b;
+	 font-weight: 500;
+}
 .inner-page p i{
-	
 	color: green;
 }
 .inner-page li{
@@ -1636,6 +1642,148 @@ footer .copyright a:hover{
 		font-family: "IcoFont";	
 		color: green;
 }
+
+.inner-page .csr{
+	display: block;
+	padding: 30px 55px;
+}
+
+.inner-page .row{
+	float: left;
+	width: 100%;
+	margin: 0 0 2% 0 !important;
+}
+.inner-page .home{
+	background: #00bceb;
+}
+
+.csr .csr-left{
+	float: left;
+	width: 49%;
+	margin: 5px 1% 0 0;
+}
+
+.csr .csr-left aside{
+    float: left;
+    width: 50%;
+    padding: 0px;
+    margin: 0px;
+    height: 260px;
+    overflow: hidden;
+}
+.csr .csr-left aside img {
+    width: 100%;
+}
+
+.csr .csr-left article {
+    float: left;
+    width: 50%;
+    /* background: #799c4b; */
+    background: #265d1b;
+    min-height: 260px;
+    padding: 14px;
+    position: relative;
+}
+
+.csr .csr-left article p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 22px;
+   /*  padding: 16px; */
+    position: relative;
+}
+
+.csr .csr-left article p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 22px;
+   /*  padding: 16px; */
+    position: relative;
+}
+
+.csr .csr-right {
+    float: left;
+    width: 49%;
+    margin: 5px 1% 0 0;
+}
+.csr .csr-right aside {
+    float: left;
+    width: 50%;
+    height: 260px;
+    overflow: hidden;
+}
+.csr .csr-right aside img {
+    width: 100%;	
+}
+.csr .csr-right article {
+    float: left;
+    width: 50%;
+    /* background: #799c4b; */
+    background: #265d1b;
+    min-height: 260px;
+    padding: 14px;
+    position: relative;
+}
+.csr .csr-right article p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 21px;
+    /* padding: 13px 15px 14px 15px; */
+    position: relative;
+}
+
+@media only screen and (max-width:980px){
+.csr .csr-left {float: none; width: 278px; margin: 25px auto; height: auto;}
+.csr .csr-right {float: none; width:278px; margin: 25px auto; height: auto;}
+.csr .csr-left aside {float: none; width: auto; padding: 0px; margin: 0px;}
+.csr .csr-right aside {float: none; width: auto; padding: 0px; margin: 0px;}
+.csr .csr-left article { min-height: auto; width: 100%;}
+.csr .csr-right article { min-height: auto; width: 100%;}
+.csr .csr-left {float: none; width: 278px; margin: 25px auto; height: auto; text-align: center;}
+.csr .csr-left article {width: 100%;}
+.csr .csr-right article {width: 100%;}
+.csr .csr-left aside img {width: 100%;height: 261px;}
+.csr .csr-right aside img {width: 100%;height: 261px;}
+.csr .csr-right aside img, .csr .csr-left aside img {height: auto;display: block;}
+.csr .csr-right{clear:both; padding-top:25px;}
+}
+
+.inner-page .section-bg {
+    background-color: #00bceb;
+}
+.inner-page .csr_half{
+	padding: 0 !important;
+}
+.inner-page .csr_half img{
+	width: 100%;
+}
+
+.inner-page .portfolio .csr_strt {
+margin: auto;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 90%;
+	/* box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08); */
+    transition: 0.3s;
+    position: relative;
+    overflow: hidden;
+	color: #02075D;
+}
+
+.inner-page .portfolio .csr_strt h1{
+	text-align: center;
+	font-weight: 500;
+	padding-bottom: 5%;
+}
+
+.inner-page .portfolio-wrap p{
+	text-align: justify;
+	 font-family: "Open Sans", sans-serif;
+	 padding: 3px 3%;
+}
+
 
 /* added by Shivendra for Headline ticker */
 
@@ -1911,8 +2059,8 @@ footer .copyright a:hover{
 
 	.ds .sf-menu > li > a {
 		/* color: #000; */
-		color: #5c768d;
-		font-weight: 600;
+		color: green;
+		font-weight: 500;
 	}
 
 	.ds .sf-menu > li > a:hover,
