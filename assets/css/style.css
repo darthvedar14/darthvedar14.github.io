@@ -893,6 +893,7 @@ section {
   /* background-image: url('assets\img\bg\boxbg.jpg'); */
   margin-bottom: 10px;
   opacity: 1;
+  border-radius: 20px;
 }
 
 .counts .count-box i {
