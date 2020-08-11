@@ -1082,7 +1082,7 @@ ul.bread li a:hover {
 }
 
 .portfolio .portfolio-wrap img {
-  transition: 0.3s ease;
+  transition: 0.3s;
 }
 
 .portfolio .portfolio-wrap .portfolio-info {
@@ -1154,7 +1154,7 @@ ul.bread li a:hover {
 }
 
 .portfolio .portfolio-wrap:hover img {
-  transform: scale(1.2);
+  transform: scale(1.1);
 }
 
 /*--------------------------------------------------------------
