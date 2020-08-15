@@ -934,7 +934,7 @@ ul.bread li a:hover {
   /* display: block; */
   font-size: 64px;
   margin-bottom: 0px;
-  text-shadow: 1px 1px 1px rgba(255,255,255, 0.5);
+  /*text-shadow: 1px 1px 1px rgba(255,255,255, 0.5);*/
 }
 
 .counts .count-box span {
@@ -943,7 +943,7 @@ ul.bread li a:hover {
   font-weight: 700;
   /* color: #1c5c93; */
   color: #fff;
-  text-shadow: 1px 1px 1px rgba(255,255,255, 0.5);
+/*  text-shadow: 1px 1px 1px rgba(255,255,255, 0.5);*/
 }
 
 .counts .count-box p {
@@ -952,7 +952,7 @@ ul.bread li a:hover {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
   color: #fff;
-  text-shadow: 1px 1px 1px rgba(255,255,255, 0.88);
+ /* text-shadow: 1px 1px 1px rgba(255,255,255, 0.88);*/
   
 }
 
