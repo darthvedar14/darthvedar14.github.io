@@ -45,91 +45,64 @@
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
   	
   <style>
-  #videoBG {
-	 width: auto;
-	 height: auto;
-	}
-	h3
-	{
-	color: green;
-	}
-	strong
-	{
-	color: green;
-	}
-	/* Style the tab */
-.tab {
-  overflow: hidden;
-  border-bottom: 1px solid #ccc;
-  background-color: #fff;
+.mySlides {display: none;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
 
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-div {
-  text-align: justify;
-  text-justify: inter-word;
-}
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #228B22;
-  color: #fff;
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
 }
 
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-
-  border-top: none;
+.active {
+  background-color: #717171;
 }
 
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,700';
-
-th, td
-{
-padding: 10px;
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
 
-.rwd-table {
-  background: green;
-  color: #fff;
-  border-radius: .4em;
-  overflow: hidden;
-  width: 100%;
-  tr {
-    border-color: lighten(#34495E, 10%);
-  }
-  th, td {
-	
-    margin: .5em 1em;
-    @media (min-width: $breakpoint-alpha) { 
-     padding: 1em !important; 
-    }
-  }
-  th, td:before {
-    color: #dd5;
-	
-  }
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
 }
 
 </style>
-
 </head>
 
 <body>
@@ -492,122 +465,63 @@ padding: 10px;
            <div class="container-fluid">
         <div class="row">
             <img src="assets/img/product/main.jpeg" class="img-fluid" alt="">
-		
-          </div>
+		   </div>
 		  </div>
 
 		<div><p><br/><br/></p></div>
-  <div class="container-fluid">
+  <div class="container">
         <div class="row">
   
 <br/>
-<div class = "col-md-6">
-<h3>KRIBHCO DIAMMONIUM PHOSPHATE – DAP</h3>
+<div class = "col-md-8">
+<h3>Liquid Bio-Fertilizer - LBF</h3>
 <hr>
-<p>Di-ammonium Phosphate popularly known as DAP is a preferred fertilizer in India because it contains both Nitrogen and phosphorus which are primary
-macro-nutrients and part of 18 essential plant nutrients team .</p>
-<div class="tab">
-  <button class="tablinks" id="defaultOpen" onclick="openCity(event, 'Description')">Description</button>
-  <button class="tablinks" onclick="openCity(event, 'Advantage')">Efficient Use</button>
-  <button class="tablinks" onclick="openCity(event, 'Value')">Properties</button>
-</div>
-
-<div id="Description" class="tabcontent">
-<P>DAP contains N and P in nearly desirable ratio and best suited for basal dose of many crops especially wheat and paddy . Nitrogen‟s major role is to contribute in growth and development of plant and synthesis of food. Phosphorus primarily promotes root development for a better absorption of nutrients and water from soil.
-
-  <p><strong>DAP (NH4)2HPO4 :</strong>Fertilizer grade DAP Contains 18% Nitrogen and 46% Phosphorus (P2O5). However, laboratory grade DAP contains 21.21% N,
-48.48% P2O5, 6.07% Hydrogen and 24.24% oxygen. DAP is manufactured by reacting Ammonia with Phosphoric acid under controlled conditions in fertilizer
-plants.</p>
-
-</div>
-
-<div id="Advantage" class="tabcontent">
-<p>
+<p><strong>Advantages</strong>
 <ul>
-<li> <strong>Soil Testing :</strong> For efficient use of this fertilizer, soil must be tested for nitrogen and phosphorus contents. So apply only required amount of DAP. It saves costly fertilizer.</li>
-<li> <strong>Basal Dose :</strong> DAP is the best suited fertilizer for basal dose as through this we can apply full dose of phosphorus and one-third to half dose of nitrogen. Remaining doses of nitrogen can be applied through splits of urea at other stages of crop . So DAP gives the best combination with urea fertilizer. DAP is also the best fertilizer for pulses where less nitrogen and higher phosphorus is needed as starter dose.</li>
-<li> <strong>Placement of DAP :</strong> Since phosphorus is immobile in soil, its source (DAP) should be placed at distance where plant roots can easily reach. Improper
-application of DAP may cause seedling injury due to release of ammonia. DAP should be placed below seed slightly to one side.</li>
-<li>  <strong>Soil Amendments : </strong>Nitrogen as well as phosphorus, give best results in neutral soils. But in case of alkaline, volatilsation losses of ammonia are higher. So nitrogen use efficiency is reduced. Similarly excessive presence of calcium in alkaline soils, makes complexes with phosphorus and ultimately results in poor phosphorus recovery. So bringing soil reaction to neutral by adding gypsum and leaching can only improve N and P use efficiency of DAP.<br/>In acidic soils, problem ions like Fe, AI and Mn become more active and form complexes with phosphorus. Again P use efficiency is reduced. Nitrogen use is
-not affected much by acidity. Addition of lime (CaCo3) to acidic soils brings soil pH to neutral soil. Thus P use efficiency is also improved.</li>
-<li> <strong>Compost use: </strong>Compost use during field preparations improves P use efficiency due to its inherient properties described in compost product folder.</li>
-<li> <strong>PSB Bio-fertiliser use: </strong>PSB bio-fertiliser solubilises applied DAP alongwith native available P as described in Bio- fertilizer product folder and increases P use efficiency.</li>
+<li>Shelf –Life: 12 Months (Double compared to Semi-solid)</li>
+<li>Temperature Tolerance: 45OC (15OC higher compared to semi-solid)</li>
+<li>Bacterial count: 108/ ml ( double compared to semi-solid)</li>
+<li>Suitable for Drip Irrigation</li>
+<li>Seed/ Soil/Root application recommended</li>
+<li>Safe to handle/store/transport</li>
+<li>Eco-friendly/ leak-proof packing</li>
+</ul>
+</p>
+<p><strong>Type of Bio-fertilisers</strong>Mainly there are two types of Bio-fertilisers produced by KRIBHCO :
+<ul>
+<li>Nitrogen fixing Bio-fertilisers</li>
+<li>Phosphorus Solubility Bio-fertilisers</li>
 </ul>
 </p>
 </div>
+<div class = "col-md-4">
 
-<div id="Value" class="tabcontent">
-  <p>It is a very popular fertilizer because of high analysis (18-46-0) and excellent physical properties. It is free flowing, dust-free and does
-not normally give any storage problem. DAP is almost water-soluble and ultimately leaves acid effect on soils because of ammonia (NH+4) it contains. 
-DAP on incorporation into soil, reacts with water and gets converted into HPO=4and NH+4. Ammonium (NH+4) follows the same routes as in case of urea. This
-has been explained in the Urea product folder. Phosphorus in DAP is present in best available from (HPO=4). Depending upon the soil reaction (pH),
-phosphorus exists in 3 forms which can be absorbed by plant roots. These are HPO=4, H2PO4 and POΞ4. Phosphorus, which is immobile in soil, is not subjected
-to leaching losses. However, its use efficiency varies between 10-30% due to its behaviour explained below. 
-<ol>
-<li><strong>Neutral soils : </strong>In neutral soils, where soil reaction is between pH 6 and 7; hydrogen (H) and hydroxyl (OH) ions concentration is almost
-equal. In these soils, activities of problem ions like aluminium (A1), Iron(Fe), Manganese (Mn) and Calcium (Ca) are suppressed. So phosphorus
-availability to plants is not affected. The dominant form of phosphorus in these soils is HPO=4 which is same as available in DAP fertiliser. So Higher
-P use efficiency is recorded in neutral soils.</li>
-<li><strong>Acidic Soils : </strong>In acid soils especially at pH below 6, Hydrogen (H) ions concentration is higher compared to hydroxyl (OH) ions and Phosphorus
-available form exists as H2 PO4 . Under acidic situation, activities of problem ions of AI, Mn and Fe increases. These ions immediately make
-complexes with phosphorus and render it unavailable to plant roots. So the use efficiency of DAP decreases in acidic soils. However, in case of
-phosphatic fertilisers from citrate soluble sources like rock phosphate or SSP, phosphorus availability increases due to presence of acids in these
-soils. </li>
-<li><strong>Alkaline Soils: </strong>In alkaline soils (pH above 8), concentration of hydroxyl(OH-) is higher than hydrogen (H+), ions. So we find PO=4 as the available
-form of phosphorus to plants. In these soils, activity of calcium increases which precipitates phosphorus and creates artificial deficiency in the soil.
-Again use efficiency of DAP decreases in alkaline soils.</li>
-<li><strong>Rainy season: </strong>It is usually observed that phosphorus availability in soil increases during rainy season. This is attributed to bringing soil reaction
-towards neutral by excess rain water. So farmers do not apply much phosphorus to rainy season crops as native phosphorus in soils, which is
-resistant to leaching, becomes available to crop roots so higher use efficiency of Phosphorus is noticed.
-</li>
-</ol>
-</p>
-</div>
-</div>
-<div class = "col-md-3">
-<img src="assets/img/product/dap1.png" class="img-fluid" alt="">
-</div>
-<hr>
-<div class = "col-md-3">
-<strong>FCO Specifications</strong>
-<p></p>
-<table class="rwd-table">
-  <tr>
-    <th>Parameter(By weight)</td>
-    <th>%</td>
-  </tr>
-  <tr>
-    <td>Moisture</td>
-    <td>1.5 (Max)</td>
-   </tr>
-  <tr>
-    <td>Total Nitrogen</td>
-    <td>18.0 (Min)</td>
-  </tr>
+<div class="slideshow-container">
 
-  <tr>
-    <td>Ammonical nitrogen</td>
-    <td>15.5 (Min)</td>
-  </tr>
-  <tr>
-    <td>Total nitrogen as urea</td>
-    <td>2.5 (Max)</td>
-  </tr>
-  <tr>
-    <td>P<sub>2</sub>O<sub>5</sub></td>
-    <td>46.0 (Min)</td>
-  </tr>
-  <tr>
-    <td>Water soluble(P<sub>2</sub>O<sub>5</sub>)</td>
-    <td>41.0 (Min)</td>
-  </tr>
-</table>
-<br/>
+<div class="mySlides fade">
+  <div class="numbertext">1 / 3</div>
+  <img src="assets/img/product/lbf_1.jpg" style="width:100%">
 </div>
 
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="assets/img/product/lbf_2.jpg" style="width:100%">
+</div>
 
+<div class="mySlides fade">
+  <div class="numbertext">3 / 3</div>
+  <img src="assets/img/product/lbf_3.jpg" style="width:100%">
+</div>
 
+</div>
+<br>
 
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+</div>
 </section>
 </main><!-- End #main -->
 
@@ -699,20 +613,26 @@ resistant to leaching, becomes available to crop roots so higher use efficiency 
   <script src="assets/js/compressed.js"></script>
 	<script src="assets/js/main_menu.js"></script>	
 <script>
-function openCity(evt, cityName) {
-  var i, tabcontent, tablinks;
-  tabcontent = document.getElementsByClassName("tabcontent");
-  for (i = 0; i < tabcontent.length; i++) {
-    tabcontent[i].style.display = "none";
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
   }
-  tablinks = document.getElementsByClassName("tablinks");
-  for (i = 0; i < tablinks.length; i++) {
-    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
   }
-  document.getElementById(cityName).style.display = "block";
-  evt.currentTarget.className += " active";
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
-document.getElementById("defaultOpen").click();
+
 </script>
 </body>
 
