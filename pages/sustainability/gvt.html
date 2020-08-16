@@ -24,10 +24,66 @@
   <link href="../../assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="../../assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="../../assets/vendor/aos/aos.css" rel="stylesheet">
-
+	<!-- Added for Mega Menu -->
+  <link rel="stylesheet" href="../../assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="../../assets/css/font-awesome.css">
+  <link rel="stylesheet" href="../../assets/css/icomoon.css">
   <!-- Template Main CSS File -->
   <link href="../../assets/css/style.css" rel="stylesheet">
+ <style>
+ .test {
+    position: relative;
+    
+}
+.test img {
+    width:100%;
+}
+.test .test-block{
+    background-color: #265d1b;
+    position: absolute;
+    bottom: 10px;
+    left: 2%;
+    right:2%;
+	color: white;
+	text-align: center;
+	min-height: 90px;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-weight: 700;
+	border-radius: 25px;
+}
+@media only screen and (max-width:980px){
+.test img {
+    min-height: 300px;
+	width: auto !important;
+}}
+.collapsible {
+  background-color: #f8f8ff;
+  color: green;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  border-style: outset;
+  margin-bottom: 10px;
+}
 
+.active, .collapsible:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: 10 px;
+}
+ </style> 
  
 </head>
 
@@ -37,156 +93,238 @@
   
     <div class="clearfix">
       <div class="float-right"> 
-		<a href="../../assetscontent/SOP.pdf" target="_blank">Covid-19</a>&nbsp|&nbsp<a href="#">Employee Corner</a>&nbsp|&nbsp<a href="#">Media</a>&nbsp|&nbsp<a href="Pages/Contact1.html">Contact Us</a>
+		<a href="../../assetscontent/SOP.pdf" target="_blank">Covid-19</a>&nbsp|&nbsp<a href="#">Employee Corner</a>&nbsp|&nbsp<a href="#">Media</a>&nbsp|&nbsp<a href="../../pages/contact1.html">Contact Us</a>
       </div>
     </div>
 	
   </section>
 
   <!-- ======= Header ======= -->
-  <header id="header">
-  
-      <div class="logo float-left">
-        <!-- <h1 class="text-light"><a href="index.html"><span>Mamba</span></a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-		<a href="../../index.html"><img src="../../assets/img/logo.png" alt="" class="img-fluid"></a>
-	  </div>
-	  <!-- <img src="../../assetsimg/tag1.png" alt="" class="img-fluid" style="max-height: 60px; max-width: 260px;"> -->
-	  <nav class="nav-menu float-right d-none d-lg-block">
-	  
-        <ul>
-          <li class="active" style="display:none"><a href="index.html"><img src="../../assets/img/home.png" alt="" class="img-fluid"></a></li>
-          <li class="drop-down"><a href="">About</a>
-			<ul>
-				<li class="drop-down"><a href="about.html">KRIBHCO at a glance</a>
-				<ul>
-				<li><a href="about.html">Genesis</a></li>
-				<li><a href="about.html">Growth Story</a></li>
-				</ul></li>
-				<li><a href="csr.html">Vision & Values</a></li>
-				<!-- <li class="drop-down"><a href="about.html">Leadership</a>
-				<ul>
-					<li><a href='bod.html'>Board of Directors</a></li>
-					<li><a href='dir.html'>Functional/Executive Directors</a></li>
-				</ul>
-				</li> -->
-				<li class="drop-down"><a href="about.html">Leadership</a>
-				<ul>
-				<li><a href="about.html">Board of Directors</a></a></li>
-				<li><a href="about.html">Top Management</a></li>
-				</ul></li>
-				<li class="drop-down"><a href="#">JV & Subsidaries</a>
-					<ul>
-						<li><a href='omifco.html'>OMIFCO</a></li>
-						<li><a href='ksfl.html'>KFL</a></li>
-						<li><a href='kril.html'>KRIL</a></li>
-						<li><a href='gseg.html'>GSEG</a></li>
-						<li><a href='jetty.html'>Private Jetty</a></li>
-						<li class="drop-down"><a href='#'>Other</i></a>
-							<ul>
-								<li><a href='norl.html'>NORL</a></li>
-								<li><a href='nfcl.html'>NFCL</a></li>
-								<li><a href='icex.html'>ICEX</a></li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<li class="drop-down"><a href="soc.html">Cooperatives</a>
-				<ul>
-				<li><a href='norl.html'>What is cooperative</a></li>
-				<li><a href='norl.html'>Members</a></li>
-				<li><a href='norl.html'>FAQs</a></li>
-				</ul>
-				</li>
-				<li class="drop-down"><a href="soc.html">Purchase & Contracts</a>
-				<ul>
-				<li><a href='norl.html'>Vendors</a>
-				<ul>
-				<li><a href='norl.html'>Registration</a></li>
-				<li><a href='norl.html'>Blacklisted Vendors</a></li>
-				</ul>
-				</li>
-				<li><a href='norl.html'>Tenders</a></li>
-				</ul>
-				</li>
-				<li class="drop-down"><a href="soc.html">Performance</a>
-				<ul>
-				<li><a href='norl.html'>Financial</a></li>
-				<li><a href='norl.html'>Production</a></li>
-				<li><a href='norl.html'>Sales</a></li>
-				</ul>
-				</li>
-			</ul>
-		  </li>
-              <li class="drop-down"><a href="#">Products</a>
-			<ul>
-			<li class="drop-down"><a href="urea.html">Manufactured Products</a><ul>
-				<li><a href="urea.html">Neem-Coated Urea</a></li>
-				<li><a href="ammonia.html">Ammonia</a></li>
-				<li><a href="biofer.html">Bio Fertilizer </a></li>
-				<li><a href="argon.html">Argon</a></li>
-				<li><a href="seeds.html">Seeds</a></li></ul></li>
-				<li class="drop-down"><a href="traded.html">Traded Products</a>
-				<ul>
-				<li><a href="ammonia.html">DAP</a></li>
-				<li><a href="biofer.html">MOP</a></li>
-				<li><a href="argon.html">Hybrid Seeds</a></li>
-				<li><a href="seeds.html">City Compost</a></li></ul></li>
-				</ul>
-          <li class="drop-down"><a href="#services">Farmer Services</i></a>
-			<ul>
-				<li><a href="kbsk.html">KBSK</a></li>
-				<li><a href="krishi.html">Krishi Pramarsh Kendra</a></li>
-				<li><a href="karya.html">Krishi Karya</a></li>
-				<li><a href="soil.html">Soil Testing</a></li>
-				<li><a href="promotional.html">Promotional Program</a></li>
-			</ul>
-		  </li>
-		  <li class="drop-down"><a href="#">Sustainability <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-			<ul>
-				<li><a href="gvt.html">GVT</a></li>
-				<li><a href="csr.html">CSR</a></li>
-				<li><a href="env.html">Environment</a></li>
-				<li><a href="she.html">Health & Safety(SHE)</a></li>
-			</ul>
-		  </li>
-          <li><a href="career.html">Career</a>
-			<!-- <ul>
-			<li><a href="">Life@KRIBHCO</a></li>
-				<li><a href="">Testimonials</a></li>
-				<li><a href="">Join Us</a></li>
-			</ul> -->
-		  </li>
-        </ul>
-      </nav><!-- .nav-menu -->
+  <header  id="header" class="page_header ds ms s-overlay justify-nav-start">
+				<!-- <div class="container"> -->
+					<div class="logo float-left">
+						<a href="../../index.html"><img src="../../assets/img/logo.png" alt="" class="img-fluid"></a>
+					</div>
+					<div class="row align-items-center">
+							<div class="col-xl-12">
+								<div class="nav-wrap">
+
+									<!-- main nav start -->
+									<nav class="top-nav">
+										<ul class="nav sf-menu">
+											<li class="active" style="display:none;">
+												<a href="../../index.html">Home</a>
+											</li>
+
+											<li><a href="#">About Us</a>
+												<div class="mega-menu">
+													<ul class="mega-menu-row">
+														<li class="mega-menu-col">
+															<a href="#">KRIBHCO at a glance</a>
+															<ul>
+																<li>
+																	<a href="#">Genesis</a>
+																</li>
+																<li>
+																	<a href="../../pages/timeline/index.html">Timeline</a>
+																</li>
+																<li>
+																	<a href="#">Vision, Mission , Objective</a>
+																</li>
+															</ul>
+														</li>
+														<li class="mega-menu-col">
+															<a href="#">Our Business</a>
+															<ul>
+																<li>
+																	<a href="../../pages/about/subsidiaries.html">Subsidiaries</a>
+																</li>
+																<li>
+																	<a href="../../pages/about/jv.html">Joint Venture</a>
+																</li>
+																<li>
+																	<a href="../../pages/about/partnership.html">Partnership</a>
+																</li>
+																<li>
+																	<a href="../../pages/about/investment.html">Investments</a>
+																</li>
+																
+															</ul>
+														</li>
+														<li class="mega-menu-col">
+															<a href="#">Leadership</a>
+															<ul>
+																<li>
+																	<a href="#">Board of Directors</a>
+																</li>
+																<li>
+																	<a href="#">Management</a>
+																</li>
+															</ul>
+														</li>
+														<li class="mega-menu-col">
+															<a href="#">Annual Report</a>
+															
+														</li>
+														<li class="mega-menu-col">
+															<a href="#">Contact information</a>
+
+															<ul>
+																<li>
+																	<a href="#">Head Office</a>
+																</li>
+																<li>
+																	<a href="#">Plant</a>
+																</li>
+																<li>
+																	<a href="#">State Office</a>
+																</li>
+															</ul>
+														</li>
+
+													</ul>
+												</div> <!-- eof mega menu -->
+											</li>
+											<!-- eof features -->
+												<li><a href="#">Products</a>
+												<div class="mega-menu">
+													<ul class="mega-menu-row">
+														<li class="mega-menu-col">
+															<a href="#">Nitrogenous</a>
+															<ul>
+																<li>
+																	<a href="#">Neem-Coated Urea</a>
+																</li>
+															</ul>
+														</li>
+														<li class="mega-menu-col">
+															<a href="#">Phosphatic</a>
+															<ul>
+																<li>
+																	<a href="../../dap.html">DAP</a>
+																</li>
+																<li>
+																	<a href="#">Complexes</a>
+																</li>
+																<li>
+																	<a href="#">SSP</a>
+																</li>
+																										
+															</ul>
+														</li>
+														<li class="mega-menu-col">
+															<a href="#">Potash</a>
+															<ul>
+																<li>
+																	<a href="#">MOP</a>
+																</li>
+														    </ul>
+														</li>
+														<li class="mega-menu-col">
+															<a href="#">Organic Fertilizers</a>
+															<ul>
+																<li>
+																	<a href="#">LBF</a>
+																</li>
+																<li>
+																	<a href="#">Compost</a>
+																</li>
+														    </ul>
+														</li>
+														<li class="mega-menu-col">
+															<a href="#">Seeds & Others</a>
+
+															<ul>
+																<li>
+																	<a href="#">Hybrid Seeds</a>
+																</li>
+																<li>
+																	<a href="#">Certified Seeds</a>
+																</li>
+																<li>
+																	<a href="#">Zinc Sulphate</a>
+																</li>
+															</ul>
+														</li>
+														
+												</div> <!-- eof mega menu -->
+											</li>
+
+											<li>
+												<a href="#">Sustainability</a>
+												<ul>
+
+
+													<li>
+														<a href="../../pages/sustainability/csr.html">CSR</a>
+													</li>
+													<li>
+														<a href="../../pages/sustainability/gvt.html">GVT</a>
+													</li>
+													<li>
+														<a href="../../pages/sustainability/env.html">Environment</a>
+													</li>
+													<li>
+														<a href="../../pages/sustainability/she.html">SHE</a>
+													</li>
+													<li>
+														<a href="#">Solar Power</a>
+													</li>
+												</ul>
+											</li>
+
+										
+											<li>
+												<a href="#">Cooperative</a>
+												<ul>
+
+
+													<li>
+														<a href="#">About Coops</a>
+													</li>
+													<li>
+														<a href="#">FAQ</a>
+													</li>
+													<li>
+														<a href="#">RGB</a>
+													</li>
+													<li>
+														<a href="#">Byelaws</a>
+													</li>
+													<li>
+														<a href="#">Membership</a>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<a href="#">Contact</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+							</div>
+							
+						</div>
+					<!-- </div> -->
+					<span class="toggle_menu"><span></span></span>
   </header><!-- End Header -->
-<section id="topbar" class="d-lg-block">	
-  </section>
-  <main id="main">
-
-    <!-- ======= Breadcrumbs Section ======= -->
-    <section class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h1><img src="../../assets/img/gvt.png">&nbsp Gramin Vikas Trust</h1>
-		  <ol>
+<div class="test">
+    <img src="../../assets/img/sustainability/gvt.jpg">
+	<div class="test-block">
+     <h1>Gramin Vikas Trust (GVT)</h1>
+	</div></div>
+<ul class="bread">
             <li><a href="../../index.html">Home</a></li>
-            <li><a href="#">Sustainability</a></li>
-			<li>Gramin Vikas Trust</li>
-          </ol>
-        </div>
-		
-		<div class="d-flex justify-content-between align-items-center">
-          
-        </div>
-
-      </div>
-    </section><!-- End Breadcrumbs Section -->
-
+			<li><a href="../index.html" >Sustainability</a></li>
+            <li>Gramin Vikas Trust</li>
+          </ul> 
+	 
     <section class="inner-page">
-      <div class="container">
-        <p>
+	
+
+	<div class="container">
+		<br/>
+		    <p>
           Gramin Vikas Trust (GVT) is a National Level Organization established in 1999 by Krishak Bharati Cooperative Limited (KRIBHCO) for bringing about a sustainable improvement in livelihood of the poor and marginalized communities, especially, the tribal population including women. Gramin Vikas trust is directed by a Board of Trustees from KRIBHCO, MoCF- GoI, and eminent Trustees from diverse background. Gramin Vikas Trust is registered under Indian Trust Act 1882, 12A and Foreign Contribution (Regulation) Act, 1976.</p>
 		  <p>
 GVT is an active development partner for project formulation, planning and implementation under and R&R and CSR activity for designing region specific development interventions through participatory approach.</p>
@@ -203,9 +341,10 @@ GVT recognises the importance of skill development in stimulating sustainable de
 <p>
 GVT has aligned itself with the Farmers Producers Organisation (FPO) initiative and organised more than 2000 producer groups of the farmers amongst the farming community and also formed two producers as a part of Start-up India under agriculture sector. Farmer producer groups are formed by GVT in 5 states namely Gujarat, Rajasthan, Jharkhand, Bihar and W. Bengal. Agricultural is the main business activity by these FPO’s. However, agro-horticultural intervention sponsored by NABARD and crop variety propagation in rain-fed area sponsored by ICAR are benchmark initiatives of GVT. To get fair price of their produce through a viable market linkage arrangement like FPO companies were established. Fruits and Fresh Vegetables, Producers Group have been organised in district Purulia, West Bengal under Registered Society which will be upscale to form Producers Company under Companies Act 2002. Commercial production of drought resistant paddy (PY-84) developed jointly by GVT, Birsa agricultural university and Bangor University (U.K.) is being carried out in Baripada Odisha through one such farmer producer company called JCPCL which is also being linked to various market in adjoining states.
         </p>
-      </div>
+	  </div>
     </section>
-
+	
+<main id="main">
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
@@ -292,8 +431,24 @@ GVT has aligned itself with the Farmers Producers Organisation (FPO) initiative 
   <script src="../../assets/vendor/aos/aos.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="../../assets/js/main.js"></script>
+    <script src="../../assets/js/main.js"></script>
+	<script src="../../assets/js/compressed.js"></script>
+	<script src="../../assets/js/main_menu.js"></script>	
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
 
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
 </body>
-
 </html>
