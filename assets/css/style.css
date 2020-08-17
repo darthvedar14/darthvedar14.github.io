@@ -431,13 +431,13 @@ list-style: none;
   -webkit-animation-delay: 0.4s;
   animation-delay: 0.4s;
   color: #fff;
-  font-size: 60px;
+  font-size: 50px;
   /* background-color: rgba(35, 80, 175, 0.2); */
-  /* background-color: rgba(13, 30, 45, 0.2); */
+  background-color: rgba(13, 30, 45, 0.1);
   text-shadow: 2px 2px 3px rgba(0,0,0,.92);
   display: block;
   font-weight: 500;
-  text-align: justify;
+  text-align: left;
 }
 
 #hero .carousel-inner .carousel-item {
