@@ -424,6 +424,8 @@ list-style: none;
   /* text-shadow:2px 2px 3px rgba(40, 167, 69, 1); */
    text-shadow: 2px 2px 3px rgba(0,0,0,.92);
   text-align: center;
+  font-weight: 600;
+  /* background-color: rgba(13, 30, 45, 0.1); */
 }
 
 #hero p {
@@ -1679,9 +1681,9 @@ footer .copyright a:hover{
   text-align: justify;
 }
 .inner-page li:before{
-		content: "\f018";
+		/* content: "\f018";
 		font-family: "IcoFont";	
-		color: green;
+		color: green; */
 }
 
 .inner-page .csr{
