@@ -1685,8 +1685,8 @@ footer .copyright a:hover{
 		color: green; */
 }
 
-.inner-page .csr{
-	display: block;
+.csr{
+	/* display: block; */
 	padding: 30px 55px;
 }
 
@@ -1695,7 +1695,7 @@ footer .copyright a:hover{
 	width: 100%;
 	margin: 0 0 2% 0 !important;
 }
-.inner-page .home{
+.home{
 	background: #00bceb;
 }
 
@@ -1793,14 +1793,14 @@ footer .copyright a:hover{
 .inner-page .section-bg {
     background-color: #00bceb;
 }
-.inner-page .csr_half{
+.csr_half{
 	padding: 0 !important;
 }
-.inner-page .csr_half img{
+.csr_half img{
 	width: 100%;
 }
 
-.inner-page .portfolio .csr_strt {
+.portfolio .csr_strt {
 margin: auto;
   position: absolute;
   top: 50%;
@@ -1814,13 +1814,13 @@ margin: auto;
 	color: #02075D;
 }
 
-.inner-page .portfolio .csr_strt h1{
+.portfolio .csr_strt h1{
 	text-align: center;
 	font-weight: 500;
 	padding-bottom: 5%;
 }
 
-.inner-page .portfolio-wrap p{
+.portfolio-wrap p{
 	text-align: justify;
 	 font-family: "Open Sans", sans-serif;
 	 padding: 3px 3%;
