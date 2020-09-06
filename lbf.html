@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Welcome to Kribhco</title>
+  <title>Liquid Bio-Fertilizer - LBF</title>
   <meta content="" name="descriptison">
   <meta content="" name="keywords">
 
@@ -25,6 +25,7 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <!-- Added for Mega Menu -->
+	
   <link rel="stylesheet" href="assets/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/font-awesome.css">
   <link rel="stylesheet" href="assets/css/icomoon.css">
@@ -43,66 +44,163 @@
   <link rel="stylesheet" href="assets/css/swc.css">
 	<!-- Cookie Consent template -->
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
-  	
+ 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="assets/slider/sss.min.js"></script>
+<link rel="stylesheet" href="assets/slider/sss.css" type="text/css" media="all">
+<script>jQuery(function($) {$('.slider').sss();});</script>
+
   <style>
-.mySlides {display: none;}
+  #videoBG {
+	 width: auto;
+	 height: auto;
+	}
+	h3
+	{
+	color: green;
+	}
+	strong
+	{
+	color: green;
+	}
+	/* Style the tab */
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+  background-color: #fff;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #228B22;
+  color: #fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+
+  border-top: none;
+}
+
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,700';
+
+th, td
+{
+padding: 10px;
+}
 
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 1000px;
+.rwd-table {
+  background: green;
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+  width: 100%;
+  tr {
+    border-color: lighten(#34495E, 10%);
+  }
+  th, td {
+	
+    margin: .5em 1em;
+    @media (min-width: $breakpoint-alpha) { 
+     padding: 1em !important; 
+    }
+  }
+  th, td:before {
+    color: #dd5;
+	
+  }
+}
+#slider {
   position: relative;
-  margin: auto;
+  overflow: hidden;
+  margin: 20px auto 0 auto;
+  border-radius: 4px;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 300px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
   position: absolute;
-  top: 0;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
 }
 
-/* The dots/bullets/indicators */
-.dot {
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
 }
 
-.active {
-  background-color: #717171;
+a.control_prev {
+  border-radius: 0 2px 2px 0;
 }
 
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
-}
-
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
 }
 
 </style>
+
 </head>
 
 <body>
@@ -265,10 +363,6 @@
 									<!-- main nav start -->
 									<nav class="top-nav">
 										<ul class="nav sf-menu">
-											<li class="active" style="display:none;">
-												<a href="index.html">Home</a>
-											</li>
-
 											<li><a href="#">About Us</a>
 												<div class="mega-menu">
 													<ul class="mega-menu-row">
@@ -276,42 +370,42 @@
 															<a href="#">KRIBHCO at a glance</a>
 															<ul>
 																<li>
-																	<a href="#">Genesis</a>
+																	<a href="pages/about/Genesis.html">Genesis</a>
 																</li>
 																<li>
 																	<a href="pages/timeline/index.html">Timeline</a>
 																</li>
 																<li>
-																	<a href="#">Vision, Mission , Objective</a>
+																	<a href="https://darthvedar14.github.io/pages/about/Mission.html">Vision, Mission , Objective</a>
 																</li>
 															</ul>
 														</li>
 														<li class="mega-menu-col">
-															<a href="#">Our Business</a>
+															<a href="pages/about/business.html">Our Business</a>
 															<ul>
 																<li>
-																	<a href="#">Subsidiaries</a>
+																	<a href="Pages/about/subsidiaries.html">Subsidiaries</a>
 																</li>
 																<li>
-																	<a href="#">Joint Venture</a>
+																	<a href="pages/about/jv.html">Joint Venture</a>
 																</li>
 																<li>
-																	<a href="#">Partnership</a>
+																	<a href="pages/about/nonprofit.html">Not for Profit</a>
 																</li>
 																<li>
-																	<a href="#">Investments</a>
+																	<a href="pages/about/investment.html">Investments</a>
 																</li>
 																
 															</ul>
 														</li>
 														<li class="mega-menu-col">
-															<a href="#">Leadership</a>
+															<a href="pages/about/leadership.html">Leadership</a>
 															<ul>
 																<li>
-																	<a href="#">Board of Directors</a>
+																	<a href="pages/about/bod.html">Board of Directors</a>
 																</li>
 																<li>
-																	<a href="#">Management</a>
+																	<a href="pages/about/management.html">Management</a>
 																</li>
 															</ul>
 														</li>
@@ -320,7 +414,7 @@
 															
 														</li>
 														<li class="mega-menu-col">
-															<a href="#">Contact information</a>
+															<a href="contact.html">Contact information</a>
 
 															<ul>
 																<li>
@@ -376,7 +470,7 @@
 															<a href="#">Organic Fertilizers</a>
 															<ul>
 																<li>
-																	<a href="lbf.html">LBF</a>
+																	<a href="lbf.html">Liquid Bio-Fertilizers</a>
 																</li>
 																<li>
 																	<a href="compost.html">Compost</a>
@@ -401,7 +495,8 @@
 														
 												</div> <!-- eof mega menu -->
 											</li>
-
+											
+											<!-- eof features -->
 											<li>
 												<a href="#">Sustainability</a>
 												<ul>
@@ -427,29 +522,11 @@
 
 										
 											<li>
-												<a href="#">Cooperative</a>
-												<ul>
-
-
-													<li>
-														<a href="#">About Coops</a>
-													</li>
-													<li>
-														<a href="#">FAQ</a>
-													</li>
-													<li>
-														<a href="#">RGB</a>
-													</li>
-													<li>
-														<a href="#">Byelaws</a>
-													</li>
-													<li>
-														<a href="#">Membership</a>
-													</li>
-												</ul>
+												<a href="https://darthvedar14.github.io/pages/Coorporative/about.html">Cooperative</a>
+												
 											</li>
 											<li>
-												<a href="#">Contact</a>
+												<a href="contact.html">Contact</a>
 											</li>
 										</ul>
 									</nav>
@@ -465,9 +542,14 @@
            <div class="container-fluid">
         <div class="row">
             <img src="assets/img/product/main.jpeg" class="img-fluid" alt="">
-		   </div>
+		
+          </div>
 		  </div>
-
+<ul class="bread">
+            <li><a href="index.html">Home</a></li>
+			<li><a href="index.html" >Products</a></li>
+            <li>Hybrid Seeds</li>
+          </ul> 
 		<div><p><br/><br/></p></div>
   <div class="container">
         <div class="row">
@@ -476,7 +558,15 @@
 <div class = "col-md-8">
 <h3>Liquid Bio-Fertilizer - LBF</h3>
 <hr>
-<p><strong>Advantages</strong>
+<p>Hybrid Seed has been playing an important role in Indian Agriculture for maximizing yield. KRIBHCO continues to have tie-up with a leading
+Hybrid Seed Company and successfully marketin through its own marketing network in KRIBHCO brand.</p>
+<div class="tab">
+  <button class="tablinks" id="defaultOpen" onclick="openCity(event, 'Description')">Advantages</button>
+  <button class="tablinks" onclick="openCity(event, 'Advantage')">Types</button>
+</div>
+
+<div id="Description" class="tabcontent">
+<p>
 <ul>
 <li>Shelf –Life: 12 Months (Double compared to Semi-solid)</li>
 <li>Temperature Tolerance: 45OC (15OC higher compared to semi-solid)</li>
@@ -487,44 +577,71 @@
 <li>Eco-friendly/ leak-proof packing</li>
 </ul>
 </p>
-<p><strong>Type of Bio-fertilisers</strong>Mainly there are two types of Bio-fertilisers produced by KRIBHCO :
+
+</div>
+
+<div id="Advantage" class="tabcontent">
+<p>
 <ul>
 <li>Nitrogen fixing Bio-fertilisers</li>
 <li>Phosphorus Solubility Bio-fertilisers</li>
 </ul>
 </p>
 </div>
+
+</div>
 <div class = "col-md-4">
-
-<div class="slideshow-container">
-
-<div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="assets/img/product/lbf_1.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
-  <img src="assets/img/product/lbf_2.jpg" style="width:100%">
-</div>
-
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="assets/img/product/lbf_3.jpg" style="width:100%">
-</div>
-
-</div>
-<br>
-
-<div style="text-align:center">
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-  <span class="dot"></span> 
+<div class="slider">
+<img src="assets/img/product/lbf1.jpg" />
+<img src="assets/img/product/lbf2.jpg" />
+<img src="assets/img/product/lbf3.jpg" />
+<img src="assets/img/product/lbf4.jpg" />
+<img src="assets/img/product/lbf5.jpg" />
+<img src="assets/img/product/lbf6.jpg" />
+<img src="assets/img/product/lbf7.jpg" />
+<img src="assets/img/product/lbf8.jpg" />
+<img src="assets/img/product/lbf9.jpg" />
 </div>
 </div>
+<hr>
+
+
+
+
+
 </section>
 </main><!-- End #main -->
-
+<!-- Discover more section -->
+	<section id="discover" class="portfolio" style="background-color:whitesmoke;">
+    <div class="container-fluid" style="padding-top: 15px;padding-bottom:25px";>
+   <h1 style="color: green;font-weight:bold;text-align:center;">Discover More</h1> 
+   <br>
+  <div class="row" data-aos="fade-up">
+   
+    <div class="col-xs-6 col-md-4" style="margin-bottom: 2%;";>
+     <div class="portfolio-wrap" style="border-radius: 30px;">
+		<a href=""><img src="assets/img/slide-2.png" style="width:100%; height:100%;opacity:0.8;">
+				<div style="position:absolute;top:50%;left:50%; transform: translate(-50%, -50%);width:80%;text-align:center;">
+				<h2 style="color:white;">About Us</h2></div></a>
+				</div>
+    </div>
+    <div class="col-xs-6 col-md-4" style="margin-bottom: 2%";>
+	<div class="portfolio-wrap" style="border-radius: 30px;">
+		<a href=""><img src="assets/img/csr_tit.jpg" style="width:100%; height:100%;opacity:0.8">
+		<div style="position:absolute;top:50%;left:50%; transform: translate(-50%, -50%);width:80%;text-align:center;">
+				<h2 style="color:white;">Products</h2></div></a>
+				</div>
+    </div>
+    <div class="col-xs-6 col-md-4" style="margin-bottom: 2%;";>
+	<div class="portfolio-wrap" style="border-radius: 30px;">
+      <a href="pages/about/business.html"><img src="assets/img/slide-2.jpg" style="width:100%; height:100%;opacity:0.8;">
+	  <div style="position:absolute;top:50%;left:50%; transform: translate(-50%, -50%);width:80%;text-align:center;">
+				<h2 style="color:white;">Our Business</h2></div></a>
+    </div>
+	</div>
+  </div>
+</div>
+</section>
   <!-- ======= Footer ======= -->
    <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -613,25 +730,67 @@
   <script src="assets/js/compressed.js"></script>
 	<script src="assets/js/main_menu.js"></script>	
 <script>
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
-  for (i = 0; i < dots.length; i++) {
-    dots[i].className = dots[i].className.replace(" active", "");
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 2000); // Change image every 2 seconds
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
 }
+document.getElementById("defaultOpen").click();
+
+jQuery(document).ready(function ($) {
+
+  $('#checkbox').change(function(){
+    setInterval(function () {
+        moveRight();
+    }, 3000);
+  });
+  
+	var slideCount = $('#slider ul li').length;
+	var slideWidth = $('#slider ul li').width();
+	var slideHeight = $('#slider ul li').height();
+	var sliderUlWidth = slideCount * slideWidth;
+	
+	$('#slider').css({ width: slideWidth, height: slideHeight });
+	
+	$('#slider ul').css({ width: sliderUlWidth, marginLeft: - slideWidth });
+	
+    $('#slider ul li:last-child').prependTo('#slider ul');
+
+    function moveLeft() {
+        $('#slider ul').animate({
+            left: + slideWidth
+        }, 200, function () {
+            $('#slider ul li:last-child').prependTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    function moveRight() {
+        $('#slider ul').animate({
+            left: - slideWidth
+        }, 200, function () {
+            $('#slider ul li:first-child').appendTo('#slider ul');
+            $('#slider ul').css('left', '');
+        });
+    };
+
+    $('a.control_prev').click(function () {
+        moveLeft();
+    });
+
+    $('a.control_next').click(function () {
+        moveRight();
+    });
+
+});    
 
 </script>
 </body>
