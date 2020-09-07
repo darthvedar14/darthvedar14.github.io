@@ -33,13 +33,13 @@
   <!-- Template Main CSS File -->
   <link href="../../assets/css/style.css" rel="stylesheet">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
- <style>
+  <style>
  .test {
     position: relative;
     
 }
 .test img {
-    max-width:100%;
+    width:100%;
 }
 .test .test-block{
     background-color: #265d1b;
@@ -59,75 +59,32 @@
 .test img {
     min-height: 300px;
 	width: auto !important;
+}}
+.collapsible {
+  background-color: #f8f8ff;
+  color: green;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 18px;
+  border-style: outset;
+  margin-bottom: 10px;
 }
-.page-area {
-    position: relative;
-    z-index: 1;
+
+.active, .collapsible:hover {
+  background-color: green;
+  color: #fff;
 }
-.transparent-header{
-    background: transparent;
-}
-.page-area {
-    background: url("../../assets/img/genesis/slide-1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-}
-.page-area::after{
-    position: absolute;
-    content: "";
-    left:0;
-    top: 0;
-    width:100%;
-    height: 100%;
-    background: rgba(0,0,0,0.7);
-    z-index: -1;
-}
-.breadcrumb .section-headline {
-    text-align: center;
-    padding-bottom: 10px;
-}
-.page-area .section-headline::after {
-    display: none;
-}
-.breadcrumb {
-    background-color: #1d171700;
-    margin-bottom: 0;
-    padding: 230px 0px 120px;
-}
-.breadcrumb h3 {
-    color: #fff;
-    font-size: 42px;
-    font-weight: 500;
-    line-height: 50px;
-    position: relative;
-    margin-bottom: 0px;
-}
-.breadcrumb .section-headline {
-    text-align: center;
-}
-.breadcrumb ul li {
-    display: inline-block;
-    color: #f5f5f5;
-    padding: 0px 10px 0px 20px;
-    position: relative;
-    font-size: 16px;
-}
-.breadcrumb ul li.home-bread{
-    padding-left: 0px;
-}
-.breadcrumb ul li.home-bread::after {
-    position: absolute;
-    content: "\f105";
-    font-family: fontAwesome;
-    right: -10px;
-    top: 0;
-}
-.transparent-header .main-menu ul.nav > li> a.pages::after {
-    color: #fff
-}
-.transparent-header.stick .main-menu ul.nav > li> a.pages::after {
-    color: #444
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #fff;
+  margin-bottom: 10 px;
 }
  </style> 
  
@@ -434,16 +391,24 @@
                                    
                                         <h3 style="color: green;">Soil Testing </h3>
                                     
-					<p><b>Soil testing</b> is an effective process to maintain sustainable soil health. Main reason of decreasing soil health is intensive cropping pattern & continuous use of imbalance fertilization,Due to this the quality & productivity of the crops adversely affected. </p>
+				<!--	<p><b>Soil testing</b> is an effective process to maintain sustainable soil health. Main reason of decreasing soil health is intensive cropping pattern & continuous use of imbalance fertilization,Due to this the quality & productivity of the crops adversely affected. </p>
 					<br><p><b>Regular insufficiency of plant nutrients</b> in soil creates so many problems in farmers field. Fertilizers recommendations for different crops based on the available plant nutrients in the soil resulting better yield. Soil fertility depends upon the fertilizer use on soil test basis (including pH & EC). <p>
 					<br><p><b>Soil analysis</b> is a valuable tool for farm as it determines the inputs required for efficient and economic production. A proper soil test will help ensure the application of enough manure & fertilizer to meet the requirements of the crop while taking advantage of the nutrients already present in the soil.<p>
 					<br>   <p><b>Proper nutrition </b>is essential for satisfactory crop growth and production and use of soil tests can help to determine the status of plant available nutrients to develop fertilizer recommendations to achieve optimum crop production. Efficient application of the correct types and amounts of fertilizers and manure for the supply of the nutrients is an important part of achieving profitable yields and minimizing environmental impacts.</p>
+-->                              
+</div>
+                            </div>
+				<div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-page mar-well">
+                                    <div class="page-img elec-page">
+                                        <img class="img-fluid" src="../../assets/img/services/Soil_testing.PNG" alt="">
+                                    </div>
                                 </div>
                             </div>
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="single-page mar-well">
                                     <div class="page-img elec-page">
-                                        <img class="img-fluid" src="../../assets/img/services/soil1.jpg" alt="">
+                                        <img class="img-fluid" src="../../assets/img/services/soil5.JPG" alt="">
                                     </div>
                                 </div>
                             </div>
@@ -464,7 +429,7 @@
                         </div> -->
                         <!-- end Row -->
                         <div class="row">
-                            <div class="col-md-12">
+                        <!--    <div class="col-md-12">
                                 <div class="single-well mar-well" style="
     background-color: lightyellow;
 ">
@@ -484,6 +449,13 @@
 										<br><li>Recommendation of crop verities susceptible to salinity, acidity &amp; alkalinity of the soil by applying proper crop rotation.</li>
                                     </ul>
                                 </div>
+                            </div> -->
+				<div class="col-md-12 col-sm-12 col-xs-12">
+                                <div class="single-page mar-well">
+                                    <div class="page-img elec-page">
+                                        <img class="img-fluid" src="../../assets/img/services/objective_soil_testing.PNG" alt="">
+                                    </div>
+                                </div>
                             </div>
                         <!--    <div class="col-md-6">
                                 <div class="single-page mar-well">
@@ -500,47 +472,47 @@
                                 <div class="single-well mar-well">
                                    
                                         <h4 style="
-    text-align: left;
+    text-align: left;color:green;
 font-weight: 500;">When Soil Sampling?</h4>
                                     
-                                    <p style="
-    color: green;
-">One month before seed sowing or transplanting is the right time of taking soil sample. Problem soil areas may be sampled anytime.</p>
+                                    <p>One month before seed sowing or transplanting is the right time of taking soil sample. Problem soil areas may be sampled anytime.</p>
                                 </div>
                             </div>
                         </div>
                         
-                        <div class="row" >
-                            <div class="col-md-6 col-sm-12 col-xs-12">
-                                <div class="single-page">
-                                    <div class="page-img elec-page">
-                                        <img src="img/services/s4.jpg" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        
                          <div class="row" style="
-    background-color: beige;
+    
 ">
-                            <div class="col-md-12">
-                                <div class="single-well mar-well">
-                                    
-                                        <h4 style="
+                         <div class="col-md-12">
+                              
+								  <section class="inner-page">
+	
+
+	<div class="container">
+		<br/>
+		<h4 style="
     text-align: left;
-font-weight: 600;background-color: floralwhite;">Soil Sampling Process</h4>
-                                    
-                                    <p style="
-    color: green;
+font-weight: 600;color: green;">Soil Sampling Process</h4>
+<p style="
 ">Soil sampling has become an important tool for assessing soil fertility. The main problem in the effective use of soil testing is obtaining proper representative soil sample. Proper soil sampling will provide accurate soil test results and reliable nutrient recommendations for a particular crop.</p>
-                                    <br>
-                                    <ul style="list-style-image: url('../../assets/img/services/tick.png')";>
-                                      <li><h6><b>Collecting Sample:</b></h6> <p>Sample must truly represent the field it belongs to. A field of one acre area generally treated as a single sampling unit. Larger area may be divided in to smaller homogeneous units for best representation of the soil. Areas near trees, wells, compost pit, recently fertilized plots, bunds, irrigation channels etc. must be carefully avoided during sampling.</p><br><p> An area of about 2-3 meters along all the sides of the field should be left. Sample should be drawn from 0-15 cm i.e. plough layer of furrow slice in case of cereals, vegetables and other seasonal crops & take the sample from 8-10 cleaned marked spots of entire field. Samples should be collected from different depths in case of deep rooted & longer duration crops like sugarcane or under dry- farming conditions.</p><br><p> In case of garden of fruit or other trees, composite sample from 0-30, 30-60 and 60-90 cm depth should be made from 4-5 pits dug in one acre field. Collect a small portion of soil up to the desires depth side by means of suitable sampling tools (Khurpi, Kassi or Phawda, Screw/Tube/Post hole Auger) from well marked 8-10 spots, moving in to zigzag manner from each individual sampling site in the entire field. Fields having standing crops in row, draw the soil sample in between the rows.</p></li>
-                                        <br>
-                                        
-                                      <li><h6><b>Preparing Soil Sample:</b></h6><p> Collected soil from all the spots with in one field may be mixed uniformly & thoroughly by hands on clean floor or plain sheet under the shed. Reduce the bulk sample soil to about 250-500 gm. by quartering process. Spread the entire clean bulk sample soil, divide it in to four quarters, discard two opposite ones & remix the remaining two, repeat this process until soil is left about 250 gm. & dry it properly in the shade. It may be the representative soil sample of the particular field. Transfer the sample minimum 150 gm in to clean small polythene bag.</p><br><p> Fill all required information in Soil Sample Identification Slip and Place it in another polythene bag to avoid spreading of ink/ missing information and again put it in soil sample bag before sending to KRIBHCO Krishi pramarsh Kendra ,NOIDA for testing. For detailed diagram Click here.</p></li>
-                                       
-                                    </ul>
-                                </div>
+
+		<button type="button" class="collapsible">Collecting Sample</button>
+		<div class="content">
+<p><i class="icofont-circled-right"></i>Sample must truly represent the field it belongs to. A field of one acre area generally treated as a single sampling unit. Larger area may be divided in to smaller homogeneous units for best representation of the soil. Areas near trees, wells, compost pit, recently fertilized plots, bunds, irrigation channels etc. must be carefully avoided during sampling.</p></br>
+<p><i class="icofont-circled-right"></i>An area of about 2-3 meters along all the sides of the field should be left. Sample should be drawn from 0-15 cm i.e. plough layer of furrow slice in case of cereals, vegetables and other seasonal crops & take the sample from 8-10 cleaned marked spots of entire field. Samples should be collected from different depths in case of deep rooted & longer duration crops like sugarcane or under dry- farming conditions.</p></br>
+<p><i class="icofont-circled-right"></i>In case of garden of fruit or other trees, composite sample from 0-30, 30-60 and 60-90 cm depth should be made from 4-5 pits dug in one acre field. Collect a small portion of soil up to the desires depth side by means of suitable sampling tools (Khurpi, Kassi or Phawda, Screw/Tube/Post hole Auger) from well marked 8-10 spots, moving in to zigzag manner from each individual sampling site in the entire field. Fields having standing crops in row, draw the soil sample in between the rows.</p></br>
+		</div>
+		<button type="button" class="collapsible">Preparing Soil Sample</button>
+<div class="content">
+<p><i class="icofont-circled-right"></i>Collected soil from all the spots with in one field may be mixed uniformly & thoroughly by hands on clean floor or plain sheet under the shed. Reduce the bulk sample soil to about 250-500 gm. by quartering process. Spread the entire clean bulk sample soil, divide it in to four quarters, discard two opposite ones & remix the remaining two, repeat this process until soil is left about 250 gm. & dry it properly in the shade. It may be the representative soil sample of the particular field. Transfer the sample minimum 150 gm in to clean small polythene bag.
+
+</p></br>
+<p><i class="icofont-circled-right"></i>Fill all required information in Soil Sample Identification Slip and Place it in another polythene bag to avoid spreading of ink/ missing information and again put it in soil sample bag before sending to KRIBHCO Krishi pramarsh Kendra ,NOIDA for testing.</p></br>
+
+</div>
+	  </div>
+    </section>
                             </div>
                         <!--    <div class="col-md-6">
                                 <div class="single-page mar-well">
@@ -648,6 +620,21 @@ font-weight: 600;background-color: floralwhite;">Soil Sampling Process</h4>
     <script src="../../assets/js/main.js"></script>
 	<script src="../../assets/js/compressed.js"></script>
 	<script src="../../assets/js/main_menu.js"></script>	
-	
+	<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>	
 </body>
 </html>
