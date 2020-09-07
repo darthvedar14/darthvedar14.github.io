@@ -34,7 +34,7 @@
   <link href="../../assets/css/style.css" rel="stylesheet">
    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
  <style>
- .test {
+.test {
     position: relative;
     
 }
@@ -60,12 +60,37 @@
     min-height: 300px;
 	width: auto !important;
 }
-
-.transparent-header .main-menu ul.nav > li> a.pages::after {
-    color: #fff
 }
-.transparent-header.stick .main-menu ul.nav > li> a.pages::after {
-    color: #444
+.blockHead1:after {
+  color: green;
+  border-left: 20px solid;
+  border-top: 20px solid transparent;
+  border-bottom: 20px solid transparent;
+  display: inline-block;
+  content: '';
+  position: absolute;
+  right: -20px;
+  top: 0;
+}
+.blockHead1 {
+  background-color: green!important;
+  /*width: 150px; */
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  position: relative;
+  width: 300px;
+}
+.blocktext1 {
+  color: white!important;
+  font-weight: bold!important;;
+  padding-left: 10px!important;;
+  font-family: Arial!important;;
+  font-size: 11!important;;
+}
+#block_container {
+  display: flex;
+  justify-content: center;
 }
  </style> 
  
@@ -423,27 +448,7 @@
                         <!-- end Row -->
 			    <br>
                         <div class="row">
-                            <div class="col-md-12">
-                                <div class="single-well mar-well">
-                                    <a href="#">
-                                      <h3 style="
-    font-weight: 600;
-    background-color: #cadada;
-    color: darkgreen;
-">Cooperative Principles</h3>
-                                    </a>
-                                    <p></p>
-                                    <ul style="list-style-image: url('../../assets/img/services/tick.png')";>
-                                        <li><b>Voluntary and Open Membership</b>Cooperatives are voluntary organisations, open to all persons able to use their services and willing to accept the responsibilities of membership, without gender, social, racial, political or religious discrimination. </li><br>
-                                      <li><b>Democratic Member Control</b> Cooperatives are democratic organisations controlled by their members, who actively participate in setting their policies and making decisions. Men and women serving as elected representatives are accountable to the membership. In primary cooperatives members have equal voting rights (one member, one vote) and cooperatives at other levels are also organised in a democratic manner.</li><br>
-                                      <li><b> Member Economic Participation</b> Members contribute equitably to, and democratically control, the capital of their cooperative. At least part of that capital is usually the common property of the cooperative. Members usually receive limited compensation, if any, on capital subscribed as a condition of membership. Members allocate surpluses for any or all of the following purposes: developing their cooperative, possibly by setting up reserves, part of which at least would be indivisible; benefiting members in proportion to their transactions with the cooperative; and supporting other activities approved by the membership</li><br>
-                                      <li><b> Autonomy and Independence </b> Cooperatives are autonomous, self-help organisations controlled by their members. If they enter into agreements with other organisations, including governments, or raise capital from external sources, they do so on terms that ensure democratic control by their members and maintain their cooperative autonomy.</li><br>
-                                      <li><b>Education, Training, and Information</b>Cooperatives provide education and training for their members, elected representatives, managers, and employees so they can contribute effectively to the development of their co-operatives. They inform the general public - particularly young people and opinion leaders - about the nature and benefits of co-operation. </li> <br>
-                                      <li><b>Cooperation among Cooperatives</b> Cooperatives serve their members most effectively and strengthen the cooperative movement by working together through local, national, regional and international structures.</li> <br>
-                                      <li><b>Concern for Community</b> Cooperatives work for the sustainable development of their communities through policies approved by their members.</li> <br>
-                                    </ul>
-                                </div>
-                            </div>
+                                                                 <h4><b>Cooperative Principles</b></h4>
                         <!--    <div class="col-md-6">
                                 <div class="single-page mar-well">
                                     <div class="page-img elec-page">
@@ -451,8 +456,55 @@
                                     </div>
                                 </div>
                             </div> -->
-                        </div>
-                       
+<!--<div class="container">							
+							<div class="blockHead1"><span class="blocktext1">Voluntary and Open Membership</span>
+						</div>
+						<div>
+						<p >Cooperatives are voluntary organisations, open to all persons able to use their services and willing to accept the responsibilities of membership, without gender, social, racial, political or religious discrimination.</p>
+						</div>
+						</div> -->
+					<div id="block_container" style="
+    display: inline;
+">
+  <div id="bloc1" class="blockHead1"><p class="blocktext1">Voluntary and Open Membership</p></div>
+  <div id="bloc2"><p >Cooperatives are voluntary organisations, open to all persons able to use their services and willing to accept the responsibilities of membership, without gender, social, racial, political or religious discrimination.</p></div><br>
+</div>
+<div id="block_container" style="
+    display: inline;
+">
+  <div id="bloc1" class="blockHead1"><p class="blocktext1">Democratic Member Control</p></div>
+  <div id="bloc2"><p >Cooperatives are democratic organisations controlled by their members, who actively participate in setting their policies and making decisions. Men and women serving as elected representatives are accountable to the membership. In primary cooperatives members have equal voting rights (one member, one vote) and cooperatives at other levels are also organised in a democratic manner.</p></div><br>
+</div>
+<div id="block_container" style="
+    display: inline;
+">
+  <div id="bloc1" class="blockHead1"><p class="blocktext1">Member Economic Participation</p></div>
+  <div id="bloc2"><p >Members contribute equitably to, and democratically control, the capital of their cooperative. At least part of that capital is usually the common property of the cooperative. Members usually receive limited compensation, if any, on capital subscribed as a condition of membership. Members allocate surpluses for any or all of the following purposes: developing their cooperative, possibly by setting up reserves, part of which at least would be indivisible; benefiting members in proportion to their transactions with the cooperative; and supporting other activities approved by the membership</p></div><br>
+</div>
+<div id="block_container" style="
+    display: inline;
+">
+  <div id="bloc1" class="blockHead1"><p class="blocktext1">Autonomy and Independence</p></div>
+  <div id="bloc2"><p >Cooperatives are autonomous, self-help organisations controlled by their members. If they enter into agreements with other organisations, including governments, or raise capital from external sources, they do so on terms that ensure democratic control by their members and maintain their cooperative autonomy.</p></div><br>
+</div>
+<div id="block_container" style="
+    display: inline;
+">
+  <div id="bloc1" class="blockHead1"><p class="blocktext1">Education, Training, and Information</p></div>
+  <div id="bloc2"><p >Cooperatives provide education and training for their members, elected representatives, managers, and employees so they can contribute effectively to the development of their co-operatives. They inform the general public - particularly young people and opinion leaders - about the nature and benefits of co-operation.</p></div><br>
+</div>
+<div id="block_container" style="
+    display: inline;
+">
+  <div id="bloc1" class="blockHead1"><p class="blocktext1">Cooperation among Cooperatives</p></div>
+  <div id="bloc2"><p >Cooperatives serve their members most effectively and strengthen the cooperative movement by working together through local, national, regional and international structures.</p></div><br>
+</div>
+<div id="block_container" style="
+    display: inline;
+">
+  <div id="bloc1" class="blockHead1"><p class="blocktext1">Concern for Community</p></div>
+  <div id="bloc2"><p >Cooperatives work for the sustainable development of their communities through policies approved by their members.</p></div><br>
+</div>
                        
                          
                         <!--    <div class="col-md-6">
