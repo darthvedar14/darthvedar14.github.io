@@ -107,11 +107,12 @@
     padding-bottom: 0;
 }
 .left-menu ul li.active a {
-    color: #3078fb;
+    color: green;
     position: relative;
 }
 .left-menu ul li a:hover {
-    color: #3078fb;
+    /* color: #3078fb; */
+    color: green;
 }
 .left-menu ul li a {
     color: #333;
@@ -128,7 +129,7 @@
 	position: absolute;
     right: 0;
     top: 0px;
-    background: #3078fb;
+    background: green;
     content: "";
     width: 3px;
     height: 100%;
@@ -136,6 +137,7 @@
 .down-btn i {
     font-size: 24px;
     float: right;
+	color: green;
 }
 .down-btn {
     border: 1px solid #f4f4f4;
@@ -158,8 +160,11 @@
 }
 .down-btn:hover{
     color:#fff;
-    background: #3078fb;
-    border: 1px solid #3078fb;
+    background: green;
+    border: 1px solid green;
+}
+.down-btn:hover i {
+	color: #fff;
 }
 .single-page-head .clients-testi {
     padding: 40px 30px;
@@ -220,7 +225,7 @@
     content:"\f00c";
     font-family:fontawesome;
     top:0;
-    color: #3078fb;
+    color: green;
 }
 .single-page-head .service-btn{
     width: 100%;
@@ -239,7 +244,7 @@
     left: 0;
     top: 3px;
     font-family: themify;
-    background: #3078fb;
+    background: green;
     width: 22px;
     height: 22px;
     font-size: 10px;
