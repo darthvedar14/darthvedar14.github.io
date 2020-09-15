@@ -2004,6 +2004,7 @@ margin: auto;
 	align-items: center;
 	display: flex;
 	justify-content: space-between;
+	padding-top: 10px;
 }
 
 .nav-wrap > .top-nav + *:not(.top-includes) {
