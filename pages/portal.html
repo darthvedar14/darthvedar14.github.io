@@ -44,20 +44,20 @@
 	<!-- Cookie Consent template -->
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 	<style>
-	.test {
+.test {
     position: relative;
     
 }
 .test img {
-	height:500px;
-	width:100%;
+    width:100%;
+	height: fit-content;
 }
-.test-block{
-    background-color: rgba(38, 93, 27,1);
+.test .test-block{
+    background-color: #265d1b;
     position: absolute;
-    bottom: 2px;
-    left: 25%;
-    right:25%;
+    bottom: 10px;
+    left: 2%;
+    right:2%;
 	color: white;
 	text-align: center;
 	min-height: 90px;
@@ -66,11 +66,12 @@
 	font-weight: 700;
 	border-radius: 25px;
 }
+
+
 @media only screen and (max-width:980px){
 .test img {
-    min-height: 300px;
-	width: auto !important;
-}}
+    width: 100%;
+}
 </style>
 </head>
 
@@ -285,11 +286,17 @@
   </header><!-- End Header -->
   
   <main id="main">
-    <div class="test">
-    <img src="../assets/img/employee.png"></div>
+   
+	  <div class="test">
+    <img src = "../assets/img/employee.png">
 	<div class="test-block">
-     <h1>Employee Corner</h1>
-	</div>
+     <h1>Employee's Corner</h1>
+	 <!-- <section class="breadcrumbs d-none d-lg-block d-xl-block" style="padding:0;min-height:0;padding-bottom:5px;align-items-right;"> -->
+      
+		  
+        
+    <!-- </section> -->
+</div></div>
 <ul class="bread">
             <li><a href="../index.html">Home</a></li>
             <li>Employee's Corner</a></li>
