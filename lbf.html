@@ -64,148 +64,7 @@
 	color: green;
 	}
 	/* Style the tab */
-.tab {
-  overflow: hidden;
-  border-bottom: 1px solid #ccc;
-  background-color: #fff;
-}
 
-/* Style the buttons inside the tab */
-.tab button {
-  background-color: inherit;
-  float: left;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  padding: 14px 16px;
-  transition: 0.3s;
-  font-size: 17px;
-}
-div {
-  text-align: justify;
-  text-justify: inter-word;
-}
-/* Change background color of buttons on hover */
-.tab button:hover {
-  background-color: #ddd;
-}
-
-/* Create an active/current tablink class */
-.tab button.active {
-  background-color: #228B22;
-  color: #fff;
-}
-
-/* Style the tab content */
-.tabcontent {
-  display: none;
-  padding: 6px 12px;
-
-  border-top: none;
-}
-
-@import 'https://fonts.googleapis.com/css?family=Montserrat:300,400,700';
-
-th, td
-{
-padding: 10px;
-}
-
-
-.rwd-table {
-  background: green;
-  color: #fff;
-  border-radius: .4em;
-  overflow: hidden;
-  width: 100%;
-  tr {
-    border-color: lighten(#34495E, 10%);
-  }
-  th, td {
-	
-    margin: .5em 1em;
-    @media (min-width: $breakpoint-alpha) { 
-     padding: 1em !important; 
-    }
-  }
-  th, td:before {
-    color: #dd5;
-	
-  }
-}
-#slider {
-  position: relative;
-  overflow: hidden;
-  margin: 20px auto 0 auto;
-  border-radius: 4px;
-}
-
-#slider ul {
-  position: relative;
-  margin: 0;
-  padding: 0;
-  height: 200px;
-  list-style: none;
-}
-
-#slider ul li {
-  position: relative;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 500px;
-  height: 300px;
-  background: #ccc;
-  text-align: center;
-  line-height: 300px;
-}
-
-a.control_prev, a.control_next {
-  position: absolute;
-  top: 40%;
-  z-index: 999;
-  display: block;
-  padding: 4% 3%;
-  width: auto;
-  height: auto;
-  background: #2a2a2a;
-  color: #fff;
-  text-decoration: none;
-  font-weight: 600;
-  font-size: 18px;
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-a.control_prev:hover, a.control_next:hover {
-  opacity: 1;
-  -webkit-transition: all 0.2s ease;
-}
-
-a.control_prev {
-  border-radius: 0 2px 2px 0;
-}
-
-a.control_next {
-  right: 0;
-  border-radius: 2px 0 0 2px;
-}
-
-.slider_option {
-  position: relative;
-  margin: 10px auto;
-  width: 160px;
-  font-size: 18px;
-}
-strong
-	{
-	color: green;
-	}
-	div {
-  text-align: justify;
-  text-justify: inter-word;
-}
  .test {
     position: relative;
     
@@ -232,23 +91,10 @@ strong
     min-height: 300px;
 	width: auto !important;
 }}
-.collapsible {
-  background-color: #f8f8ff;
-  color: green;
-  cursor: pointer;
-  padding: 18px;
-  width: 100%;
-  border: none;
-  text-align: left;
-  outline: none;
-  font-size: 18px;
-  border-style: outset;
-  margin-bottom: 10px;
-}
 
 .active, .collapsible:hover {
   background-color: green;
-  color: #fff;
+  color: green;
 }
 
 .content {
@@ -291,125 +137,6 @@ strong
   </section>
 
 
-  <!-- ======= Header ======= -->
- <!-- <header id="header">
-  
-      <div class="logo float-left">  -->
-        <!-- <h1 class="text-light"><a href="index.html"><span>Mamba</span></a></h1> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-	<!--	<a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-	  </div> -->
-	  <!-- <img src="assets/img/tag1.png" alt="" class="img-fluid" style="max-height: 60px; max-width: 260px;"> -->
-	<!--  <nav class="nav-menu float-right d-none d-lg-block">
-	  
-        <ul>
-          <li class="active" style="display:none"><a href="index.html"><img src="assets/img/home.png" alt="" class="img-fluid"></a></li>
-          <li class="drop-down"><a href="">About</a>
-			<ul>
-				<li class="drop-down"><a href="about.html">KRIBHCO at a glance</a>
-				<ul>
-				<li><a href="about.html">Genesis</a></li>
-				<li><a href="pages/timeline/index.html">Growth Story</a></li>
-				</ul></li>
-				<li><a href="csr.html">Vision & Values</a></li>
-				<!-- <li class="drop-down"><a href="about.html">Leadership</a>
-				<ul>
-					<li><a href='bod.html'>Board of Directors</a></li>
-					<li><a href='dir.html'>Functional/Executive Directors</a></li>
-				</ul>
-				</li> 
-				<li class="drop-down"><a href="about.html">Leadership</a>
-				<ul>
-				<li><a href="about.html">Board of Directors</a></a></li>
-				<li><a href="about.html">Top Management</a></li>
-				</ul></li>
-				<li class="drop-down"><a href="#">JV & Subsidaries</a>
-					<ul>
-						<li><a href='omifco.html'>OMIFCO</a></li>
-						<li><a href='ksfl.html'>KFL</a></li>
-						<li><a href='kril.html'>KRIL</a></li>
-						<li><a href='gseg.html'>GSEG</a></li>
-						<li><a href='jetty.html'>Private Jetty</a></li>
-						<li class="drop-down"><a href='#'>Other</i></a>
-							<ul>
-								<li><a href='norl.html'>NORL</a></li>
-								<li><a href='nfcl.html'>NFCL</a></li>
-								<li><a href='icex.html'>ICEX</a></li>
-							</ul>
-						</li>
-					</ul>
-				</li>
-				<li class="drop-down"><a href="soc.html">Cooperatives</a>
-				<ul>
-				<li><a href='norl.html'>What is cooperative</a></li>
-				<li><a href='norl.html'>Members</a></li>
-				<li><a href='norl.html'>FAQs</a></li>
-				</ul>
-				</li>
-				<li class="drop-down"><a href="soc.html">Purchase & Contracts</a>
-				<ul>
-				<li><a href='norl.html'>Vendors</a>
-				<ul>
-				<li><a href='norl.html'>Registration</a></li>
-				<li><a href='norl.html'>Blacklisted Vendors</a></li>
-				</ul>
-				</li>
-				<li><a href='norl.html'>Tenders</a></li>
-				</ul>
-				</li>
-				<li class="drop-down"><a href="soc.html">Performance</a>
-				<ul>
-				<li><a href='norl.html'>Financial</a></li>
-				<li><a href='norl.html'>Production</a></li>
-				<li><a href='norl.html'>Sales</a></li>
-				</ul>
-				</li>
-			</ul>
-		  </li>
-              <li class="drop-down"><a href="#">Products</a>
-			<ul>
-			<li class="drop-down"><a href="urea.html">Manufactured Products</a><ul>
-				<li><a href="urea.html">Neem-Coated Urea</a></li>
-				<li><a href="ammonia.html">Ammonia</a></li>
-				<li><a href="biofer.html">Bio Fertilizer </a></li>
-				<li><a href="argon.html">Argon</a></li>
-				<li><a href="seeds.html">Seeds</a></li></ul></li>
-				<li class="drop-down"><a href="traded.html">Traded Products</a>
-				<ul>
-				<li><a href="ammonia.html">DAP</a></li>
-				<li><a href="biofer.html">MOP</a></li>
-				<li><a href="argon.html">Hybrid Seeds</a></li>
-				<li><a href="seeds.html">City Compost</a></li></ul></li>
-				</ul>
-          <li class="drop-down"><a href="#services">Farmer Services</i></a>
-			<ul>
-				<li><a href="kbsk.html">KBSK</a></li>
-				<li><a href="krishi.html">Krishi Pramarsh Kendra</a></li>
-				<li><a href="karya.html">Krishi Karya</a></li>
-				<li><a href="soil.html">Soil Testing</a></li>
-				<li><a href="promotional.html">Promotional Program</a></li>
-			</ul>
-		  </li>
-		  <li class="drop-down"><a href="#">Sustainability <i class="fa fa-caret-down" aria-hidden="true"></i></a>
-			<ul>
-				<li><a href="pages/sustainability/gvt.html">GVT</a></li>
-				<li><a href="pages/sustainability/csr.html">CSR</a></li>
-				<li><a href="pages/sustainability/env.html">Environment</a></li>
-				<li><a href="pages/sustainability/she.html">Health & Safety(SHE)</a></li>
-			</ul>
-		  </li>
-          <li><a href="career.html">Career</a>
-			<!-- <ul>
-			<li><a href="">Life@KRIBHCO</a></li>
-				<li><a href="">Testimonials</a></li>
-				<li><a href="">Join Us</a></li>
-			</ul>
-		  </li>
-        </ul>
-      </nav>
-  </header> -->
-  
-  <!-- End Header -->
   
 <header  id="header" class="page_header ds ms s-overlay justify-nav-start" style="padding-left:1.5%;padding-right:1.5%;">
 				<!-- <div class="container"> -->
@@ -638,14 +365,14 @@ strong
                             <div class="single-page-head">
                                 <div class="left-menu">
                                     <ul style="padding-left: 0px";>
-                                        <li class="active"><a href="lbf.html">Phosphate solubilizing (PSB)</a></li>
-                                        <li><a href="lbf_1.html">Liquid Consortia (NPK) </a></li>
-                                        <li><a href="lbf_2.html">Acetobacter</a></li>
-                                        <li><a href="lbf_3.html">Azospirillum</a></li>
-                                      <li><a href="lbf_4.html">Azotobacter </a></li>
-                                      <li><a href="lbf_5.html">Rhizobium </a></li>
-                                      <li><a href="lbf_6.html">Potash Mobilizing (KMB) </a></li>
-                                      <li><a href="lbf_7.html">Zinc Solubilizing (ZSB) </a></li>
+                                        <li id = "a" class="active"><a onclick="myFunction()">Phosphate solubilizing (PSB)</a></li>
+                                        <li id = "b"><a onclick="myFunction1()">Liquid Consortia (NPK) </a></li>
+                                        <li id = "c"><a onclick="myFunction2()">Acetobacter</a></li>
+                                        <li id = "d"><a onclick="myFunction3()">Azospirillum</a></li>
+                                      <li id = "e"><a onclick="myFunction4()">Azotobacter </a></li>
+                                      <li id = "f"><a onclick="myFunction5()">Rhizobium </a></li>
+                                      <li id = "g"><a onclick="myFunction6()">Potash Mobilizing (KMB) </a></li>
+                                      <li id = "h"><a onclick="myFunction7()">Zinc Solubilizing (ZSB) </a></li>
                                         
                                     </ul>
                                 </div>
@@ -655,7 +382,7 @@ strong
                     </div>
                     <!-- End left sidebar -->
                     <!-- Start service page -->
-                    <div class="col-md-8 col-sm-8 col-xs-12">
+                    <div class="col-md-8 col-sm-8 col-xs-12" id="lbf">
                         <div class="row">
                             <!-- single-well start-->
 							<div class = "col-md-6">
@@ -664,6 +391,111 @@ strong
 							<div class = "col-md-6">
                             <div class="card">
 								<img src="assets/img/product/lbf7.png" alt="Avatar" style="width:100%">
+								
+							</div>
+							</div>
+						</div>
+        </div>
+		
+		  <div class="col-md-8 col-sm-8 col-xs-12" id="lbf1" style = "display:none;">
+                        <div class="row">
+                            <!-- single-well start-->
+							<div class = "col-md-6">
+							<p>P & K components of NPK Liquid Bio Fertilizers produce organic acids which help in dissolving insoluble soil phosphorous & potash as well as applied N PK/DAP/ Single Super Phosphate (SSP)/ Muriate of Potash (MOP) etc. Fertilizers in soil and make their uptake easy by crop plants.It encourages early root development & helps plant cell formation consequently increases resistance towards diseases. Also ensure the developments of flowers, seeds & fruits in the crops. N components of NPK LBF fixes atmospheric nitrogen and provide nutrition to crop plants. In addition NPK Liquid Bio Fertilizers also produce growth regulators & biological active substance like vitamins & hormones which are beneficial to crop growth & strength. It also restricts the leaching of potassium & nitrogen in soil & reduced phosphorous fixation by 70-80 % in the soil. Inoculation with NPK Liquid Bio Fertilizers helps augment minimum 10-12 kg N, 8-10 kg P205& 6-8 kg K20 per acre/year. The response further increases when soil organic matter contents are improved with application of compost.</p>
+							</div>
+							<div class = "col-md-6">
+                            <div class="card">
+								<img src="assets/img/product/lbf5.png" alt="Avatar" style="width:100%">
+								
+							</div>
+							</div>
+						</div>
+        </div>
+		
+		  <div class="col-md-8 col-sm-8 col-xs-12" id="lbf2" style = "display:none;">
+                        <div class="row">
+                            <!-- single-well start-->
+							<div class = "col-md-6">
+							<p>Nitrogen is the major plant food which amounts to more than half of the total plant nutrients taken up by the crop. Acetobacter are entophytic bacteria can fix Nitrogen in many crops especially in roots, stems and leaves of Sugarcane crop. 500m1 of Acetobacter liquid Bio fertilizer contains 5 thousand crore bacteria which establish minicule urea plants in roots, stems and leaves in Sugar cane crop when applied in one acre field. Each acre applied with 500m1 Acetobacter Liquid Bio fertilizer can add nitrogen equivalent to 2-3 bags of urea. The response further increase when soil organic matter are improved through application of compost. </p>
+							</div>
+							<div class = "col-md-6">
+                            <div class="card">
+								<img src="assets/img/product/lbf2.png" alt="Avatar" style="width:100%">
+								
+							</div>
+							</div>
+						</div>
+        </div>
+		
+		<div class="col-md-8 col-sm-8 col-xs-12" id="lbf3" style = "display:none;">
+                        <div class="row">
+                            <!-- single-well start-->
+							<div class = "col-md-6">
+							<p><strong>Azospirillum</strong> are associative symbiotic soil bacteriawhich can fix Nitrogen in any soil and crop but preferred high moisture-living crops like paddy/jute except legume crop.500 ml. of Azospirillum Liquid Bio fertilizer contains 5 thousand crore bacteria which establish minicule urea when applied in one acre field. Each acre applied with 500 ml. Azospirillum Liquid Bio fertilizer can add nitrogen equivalent to one bag of urea. The response further increases when soil organic matter contents are improved through application of compost.  </p>
+							</div>
+							<div class = "col-md-6">
+                            <div class="card">
+								<img src="assets/img/product/lbf3.png" alt="Avatar" style="width:100%">
+								
+							</div>
+							</div>
+						</div>
+        </div>
+		
+		<div class="col-md-8 col-sm-8 col-xs-12" id="lbf4" style = "display:none;">
+                        <div class="row">
+                            <!-- single-well start-->
+							<div class = "col-md-6">
+							<p><strong>Azotobacter</strong> are free-living soil bacteria which can fix Nitrogen in any soil and crop but preferred for vegitables,fruits and field crops expect legumes/ high moisture-living crops like paddy and jute.500 ml. of Azotobacter Liquid Bio fertilizer contains 5 thousand crore bacteria which establish minicule urea when applied in one acre field. Each acre applied with 500 ml. Azotobacter Liquid Bio fertilizer can add nitrogen equivalent to one bag of urea. The response further increases when soil organic matter contents are improved through application of compost   </p>
+							</div>
+							<div class = "col-md-6">
+                            <div class="card">
+								<img src="assets/img/product/lbf6.png" alt="Avatar" style="width:100%">
+								
+							</div>
+							</div>
+						</div>
+        </div>
+		
+		 <div class="col-md-8 col-sm-8 col-xs-12" id="lbf5" style = "display:none;">
+                        <div class="row">
+                            <!-- single-well start-->
+							<div class = "col-md-6">
+							<p><strong>Rhizobium Liquid Biofertiliser</strong> are selected natural symbiotic soil bacteria which help in fixation of Nitrogen in legume crops. These bacteria when applied as per direction in the sown legume crop, make nodules on roots of the plants.500 ml. of Rhizobium Liquid Bio fertilizer contains 5 thousand crore bacteria. Each bacteria establishes one minicule biological urea plant in the shape of root-nodule. Each acre applied with 500 ml. Rhizobium Liquid Bio fertilizer can add nitrogen equivalent to one bag of urea. The response further increases when soil organic matter contents are improved through application of compost.    </p>
+							</div>
+							<div class = "col-md-6">
+                            <div class="card">
+								<img src="assets/img/product/lbf1.png" alt="Avatar" style="width:100%">
+								
+							</div>
+							</div>
+						</div>
+        </div>
+		
+		 <div class="col-md-8 col-sm-8 col-xs-12" id="lbf6" style = "display:none;">
+                        <div class="row">
+                            <!-- single-well start-->
+							<div class = "col-md-6">
+							<p>Potash is an important macro-nutrient required by crop for quality produce. It encourage early root development. Potash Mobilizing Liquid Bio-Fertiliser(KMB) produce organic acids which help in dissolving soil potash as well as applied potassium fertilizers in soil and make easy uptake by crop plants. Inoculation of K solubilize helps to augment 6-8 kg K per acre. In addition KMB also produce growth regulators which are beneficial to crop growth, strength and increase yield by 20-30 %.This also keeps soil biologically active & maintained soil health. The response further increases when soil organic matter contents are improved through application of compost.     </p>
+							</div>
+							<div class = "col-md-6">
+                            <div class="card">
+								<img src="assets/img/product/lbf4.png" alt="Avatar" style="width:100%">
+								
+							</div>
+							</div>
+						</div>
+        </div>
+		
+		<div class="col-md-8 col-sm-8 col-xs-12" id="lbf7" style = "display:none;">
+                        <div class="row">
+                            <!-- single-well start-->
+							<div class = "col-md-6">
+							<p>Zinc is becoming 4th important plant nutrient after N P K in the Indian soils & affects the nutritional quality as well as crop yield. Requirement of zinc in plant tissues is relatively in small concentration (5-100 mg/kg). Zinc Solubilizing Liquid Bio-Fertiliser (ZSB) produce organic acids which help in dissolving insoluble soil zinc salts as well as applied zinc fertilizers in soil and make easy uptake by crop plants & it also influence the bio-availability of zinc to plants, keep soil biologically active & maintained soil health. ZSB can solubilize native soil zinc and helps to augmentl-2 kg Zn per acre. The response further increases when soil organic matter contents are improved through application of compost.   </p>
+							</div>
+							<div class = "col-md-6">
+                            <div class="card">
+								<img src="assets/img/product/lbf8.png" alt="Avatar" style="width:100%">
 								
 							</div>
 							</div>
@@ -768,7 +600,7 @@ strong
 
       <div class="copyright">
         &copy; Copyright <strong><span style="color:#fff;">KRIBHCO</span></strong>. All Rights Reserved.      
-        <p>Designed by <a href="index.html">Krishak Bharati Cooperative Limited</a></p>
+        <p style="text-align:center;">Designed by <a href="index.html">Krishak Bharati Cooperative Limited</a></p>
       </div>
   </footer><!-- End Footer -->
 
@@ -793,5 +625,240 @@ strong
 	<script src="assets/js/main_menu.js"></script>	
 
 </body>
+
+<script>
+function myFunction() {
+  var a = document.getElementById("lbf");
+  var a1 = document.getElementById("lbf1");
+  var a2 = document.getElementById("lbf2");
+  var a3 = document.getElementById("lbf3");
+  var a4 = document.getElementById("lbf4");
+  var a5 = document.getElementById("lbf5");
+  var a6 = document.getElementById("lbf6");
+  var a7 = document.getElementById("lbf7");
+      a.style.display = "block";
+	  a1.style.display = "none";
+	  a2.style.display = "none";
+	  a3.style.display = "none";
+	  a4.style.display = "none";
+	  a5.style.display = "none";
+	  a6.style.display = "none";
+	  a7.style.display = "none";
+	  document.getElementById("a").className = "active";
+	  document.getElementById("b").className = "";
+	  document.getElementById("c").className = "";
+	  document.getElementById("d").className = "";
+	  document.getElementById("e").className = "";
+	  document.getElementById("f").className = "";
+	  document.getElementById("g").className = "";
+	  document.getElementById("h").className = "";
+  
+  }
+  
+
+function myFunction1() {
+  var a = document.getElementById("lbf");
+  var a1 = document.getElementById("lbf1");
+  var a2 = document.getElementById("lbf2");
+  var a3 = document.getElementById("lbf3");
+  var a4 = document.getElementById("lbf4");
+  var a5 = document.getElementById("lbf5");
+  var a6 = document.getElementById("lbf6");
+  var a7 = document.getElementById("lbf7");
+      a.style.display = "none";
+	  a1.style.display = "block";
+	  a2.style.display = "none";
+	  a3.style.display = "none";
+	  a4.style.display = "none";
+	  a5.style.display = "none";
+	  a6.style.display = "none";
+	  a7.style.display = "none";
+	  document.getElementById("a").className = "";
+	  document.getElementById("b").className = "active";
+	  document.getElementById("c").className = "";
+	  document.getElementById("d").className = "";
+	  document.getElementById("e").className = "";
+	  document.getElementById("f").className = "";
+	  document.getElementById("g").className = "";
+	  document.getElementById("h").className = "";
+	  
+	  
+  }
+
+function myFunction2() {
+  var a = document.getElementById("lbf");
+  var a1 = document.getElementById("lbf1");
+  var a2 = document.getElementById("lbf2");
+  var a3 = document.getElementById("lbf3");
+  var a4 = document.getElementById("lbf4");
+  var a5 = document.getElementById("lbf5");
+  var a6 = document.getElementById("lbf6");
+  var a7 = document.getElementById("lbf7");
+      a.style.display = "none";
+	  a2.style.display = "block";
+	  a1.style.display = "none";
+	  a3.style.display = "none";
+	  a4.style.display = "none";
+	  a5.style.display = "none";
+	  a6.style.display = "none";
+	  a7.style.display = "none";
+	  document.getElementById("a").className = "";
+	  document.getElementById("b").className = "";
+	  document.getElementById("c").className = "active";
+	  document.getElementById("d").className = "";
+	  document.getElementById("e").className = "";
+	  document.getElementById("f").className = "";
+	  document.getElementById("g").className = "";
+	  document.getElementById("h").className = "";
+	  
+	  
+  }
+
+function myFunction3() {
+  var a = document.getElementById("lbf");
+  var a1 = document.getElementById("lbf1");
+  var a2 = document.getElementById("lbf2");
+  var a3 = document.getElementById("lbf3");
+  var a4 = document.getElementById("lbf4");
+  var a5 = document.getElementById("lbf5");
+  var a6 = document.getElementById("lbf6");
+  var a7 = document.getElementById("lbf7");
+      a.style.display = "none";
+	  a3.style.display = "block";
+	  a2.style.display = "none";
+	  a1.style.display = "none";
+	  a4.style.display = "none";
+	  a5.style.display = "none";
+	  a6.style.display = "none";
+	  a7.style.display = "none";
+	  document.getElementById("a").className = "";
+	  document.getElementById("b").className = "";
+	  document.getElementById("c").className = "";
+	  document.getElementById("d").className = "active";
+	  document.getElementById("e").className = "";
+	  document.getElementById("f").className = "";
+	  document.getElementById("g").className = "";
+	  document.getElementById("h").className = "";
+	  
+	  
+  }
+
+function myFunction4() {
+  var a = document.getElementById("lbf");
+  var a1 = document.getElementById("lbf1");
+  var a2 = document.getElementById("lbf2");
+  var a3 = document.getElementById("lbf3");
+  var a4 = document.getElementById("lbf4");
+  var a5 = document.getElementById("lbf5");
+  var a6 = document.getElementById("lbf6");
+  var a7 = document.getElementById("lbf7");
+      a.style.display = "none";
+	  a4.style.display = "block";
+	  a2.style.display = "none";
+	  a3.style.display = "none";
+	  a1.style.display = "none";
+	  a5.style.display = "none";
+	  a6.style.display = "none";
+	  a7.style.display = "none";
+	  document.getElementById("a").className = "";
+	  document.getElementById("b").className = "";
+	  document.getElementById("c").className = "";
+	  document.getElementById("d").className = "";
+	  document.getElementById("e").className = "active";
+	  document.getElementById("f").className = "";
+	  document.getElementById("g").className = "";
+	  document.getElementById("h").className = "";
+	  
+	  
+  }
+
+function myFunction5() {
+  var a = document.getElementById("lbf");
+  var a1 = document.getElementById("lbf1");
+  var a2 = document.getElementById("lbf2");
+  var a3 = document.getElementById("lbf3");
+  var a4 = document.getElementById("lbf4");
+  var a5 = document.getElementById("lbf5");
+  var a6 = document.getElementById("lbf6");
+  var a7 = document.getElementById("lbf7");
+      a.style.display = "none";
+	  a5.style.display = "block";
+	  a2.style.display = "none";
+	  a3.style.display = "none";
+	  a4.style.display = "none";
+	  a1.style.display = "none";
+	  a6.style.display = "none";
+	  a7.style.display = "none";
+	  document.getElementById("a").className = "";
+	  document.getElementById("b").className = "";
+	  document.getElementById("c").className = "";
+	  document.getElementById("d").className = "";
+	  document.getElementById("e").className = "";
+	  document.getElementById("f").className = "active";
+	  document.getElementById("g").className = "";
+	  document.getElementById("h").className = "";
+	  
+	  
+  }
+
+function myFunction6() {
+  var a = document.getElementById("lbf");
+  var a1 = document.getElementById("lbf1");
+  var a2 = document.getElementById("lbf2");
+  var a3 = document.getElementById("lbf3");
+  var a4 = document.getElementById("lbf4");
+  var a5 = document.getElementById("lbf5");
+  var a6 = document.getElementById("lbf6");
+  var a7 = document.getElementById("lbf7");
+      a.style.display = "none";
+	  a6.style.display = "block";
+	  a2.style.display = "none";
+	  a3.style.display = "none";
+	  a4.style.display = "none";
+	  a5.style.display = "none";
+	  a1.style.display = "none";
+	  a7.style.display = "none";
+	  document.getElementById("a").className = "";
+	  document.getElementById("b").className = "";
+	  document.getElementById("c").className = "";
+	  document.getElementById("d").className = "";
+	  document.getElementById("e").className = "";
+	  document.getElementById("f").className = "";
+	  document.getElementById("g").className = "active";
+	  document.getElementById("h").className = "";
+	  
+	  
+  }
+  
+  function myFunction7() {
+  var a = document.getElementById("lbf");
+  var a1 = document.getElementById("lbf1");
+  var a2 = document.getElementById("lbf2");
+  var a3 = document.getElementById("lbf3");
+  var a4 = document.getElementById("lbf4");
+  var a5 = document.getElementById("lbf5");
+  var a6 = document.getElementById("lbf6");
+  var a7 = document.getElementById("lbf7");
+      a.style.display = "none";
+	  a7.style.display = "block";
+	  a2.style.display = "none";
+	  a3.style.display = "none";
+	  a4.style.display = "none";
+	  a5.style.display = "none";
+	  a1.style.display = "none";
+	  a6.style.display = "none";
+	  document.getElementById("a").className = "";
+	  document.getElementById("b").className = "";
+	  document.getElementById("c").className = "";
+	  document.getElementById("d").className = "";
+	  document.getElementById("e").className = "";
+	  document.getElementById("f").className = "";
+	  document.getElementById("g").className = "";
+	  document.getElementById("h").className = "active";
+	  
+	  
+  }
+  
+</script>
 
 </html>
